@@ -1,0 +1,137 @@
+# Solace Agent Mesh Orchestrator Agent Configurations
+
+log:
+  stdout_log_level: INFO
+  log_file_level: INFO
+  log_file: organization-orchestrator.log
+
+# Shared SAM config
+!include ../shared_config.yaml
+
+apps:
+  - name: organization-orchestrator_app
+    app_base_path: .
+    app_module: solace_agent_mesh.agent.sac.app
+    broker:
+      <<: *broker_connection
+
+    app_config:
+      namespace: ${NAMESPACE}          # Main namespace (e.g., main-org)
+      supports_streaming: true
+      agent_name: "OrganizationOrchestrator"
+      display_name: "OrganizationOrchestrator"
+      model: *planning_model
+
+      # -------------------------------------------------------------------
+      # SYSTEM PURPOSE + EXECUTION BEHAVIOR
+      # -------------------------------------------------------------------
+      instruction: |
+        You are the top-level Organization Orchestrator.
+        You manage task routing across multiple departmental orchestrators,
+        each of which may live in a different namespace or may wrap an
+        external orchestrator (CrewAI, n8n, custom systems).
+
+        Your responsibilities:
+
+        1. Task Analysis:
+           - Understand tasks received from external gateway or system users.
+           - Determine which department orchestrator should handle them.
+
+        2. Cross-Namespace Routing:
+           - You may invoke orchestrators located in other namespaces.
+           - These include:
+               - sales-orchestrator   (sales namespace)
+               - marketing-orchestrator (marketing namespace)
+               - finance-orchestrator (finance namespace — may be external)
+               - legal-orchestrator (legal namespace)
+           - Your routing model must explicitly handle namespace routing.
+
+        3. Execution Strategy:
+           a. Single Orchestrator Delegation:
+              If the task maps directly to a department’s domain,
+              call that department orchestrator across its namespace.
+
+           b. Multi-Orchestrator Coordination:
+              If a task requires multiple departments,
+              build a multi-step plan coordinating several orchestrators.
+
+           c. Direct Execution:
+              Only perform tasks yourself if they are not suitable for
+              any department orchestrator.
+
+        4. External Orchestrator Wrappers:
+           - Some departments use external workflow systems.
+           - Their "department orchestrator" is just a logical placeholder.
+           - You must call their associated SAM tool instead.
+
+        Artifact Management:
+        - Always review artifacts and return only relevant ones.
+        - Use status_update embeds before any tool or orchestrator calls.
+
+      inject_system_purpose: true
+      inject_response_format: true
+      inject_user_profile: true
+
+      # -------------------------------------------------------------------
+      # STATE, ARTIFACTS, STORAGE
+      # -------------------------------------------------------------------
+      session_service:
+        type: "sql"
+        database_url: "${ORCHESTRATOR_DATABASE_URL, sqlite:///orchestrator.db}"
+        default_behavior: "PERSISTENT"
+
+      artifact_service: *default_artifact_service
+      artifact_handling_mode: "reference"
+
+      enable_embed_resolution: true
+      enable_artifact_content_instruction: true
+
+      data_tools_config: *default_data_tools_config
+
+      # -------------------------------------------------------------------
+      # TOOLS AVAILABLE TO MAIN ORCHESTRATOR
+      # (Department orchestrators will expose their tools in their namespaces)
+      # -------------------------------------------------------------------
+      tools:
+        - tool_type: builtin-group
+          group_name: "data_analysis"
+
+      # -------------------------------------------------------------------
+      # AGENT CARD — CAPABILITIES OF MAIN ORCHESTRATOR
+      # -------------------------------------------------------------------
+      agent_card:
+        description: "Top-level Orchestrator responsible for routing tasks across departmental orchestrators and coordinating multi-department workflows."
+
+        defaultInputModes: [text, file]
+        defaultOutputModes: [text, file]
+
+        skills:
+          - id: strategic_planning
+            name: Strategic Planning
+            description: Understands complex organizational tasks and decomposes them into multi-step execution plans across departments.
+
+          - id: cross_namespace_routing
+            name: Cross-Namespace Routing
+            description: Routes tasks to orchestrators in different namespaces, including external workflow wrappers.
+
+          - id: agent_coordination
+            name: Orchestrator & Agent Coordination
+            description: Coordinates execution across departmental orchestrators, ensuring proper sequencing and data flow.
+
+          - id: artifact_management
+            name: Artifact Management
+            description: Manages generation and passing of artifacts between orchestrators and agents.
+
+      agent_card_publishing:
+        interval_seconds: 10
+
+      # -------------------------------------------------------------------
+      # DISCOVERY + CROSS-NAMESPACE COMMUNICATION
+      # -------------------------------------------------------------------
+      agent_discovery:
+        enabled: true
+
+      inter_agent_communication:
+        allow_list:
+          - "*"    # Allow cross-namespace calls intentionally
+        request_timeout_seconds: 600
