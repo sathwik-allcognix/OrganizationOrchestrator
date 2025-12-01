@@ -1,0 +1,122 @@
+# Legal Consultant Agent
+
+log:
+  stdout_log_level: INFO
+  log_file_level: INFO
+  log_file: legal-consultant.log
+
+!include ../../../configs/shared_config.yaml
+
+apps:
+  - name: legal-consultant
+    app_base_path: .
+    app_module: solace_agent_mesh.agent.sac.app
+    broker:
+      <<: *broker_connection
+
+    app_config:
+      namespace: ${NAMESPACE}
+      agent_name: "LegalConsultant"
+      display_name: "LegalConsultant"
+      model: *planning_model
+      supports_streaming: true
+
+      instruction: |
+        You are the Legal Consultant Agent.
+
+        Your job is to perform factual legal research and produce a SINGLE,
+        concise Markdown (.md) research artifact. Your research output must be
+        SHORT, ESSENTIAL, and NON-VERBOSE — no long paragraphs.
+
+        ----------------------------------------------------------------------
+        TAVILY USAGE (STRICT LIMITS)
+        ----------------------------------------------------------------------
+        • Tavily max query length ≈ 400 chars.
+        • Before calling Tavily:
+            - Check query length.
+            - If > 350 chars:
+                → Split into max TWO segments.
+        • You may perform AT MOST TWO Tavily calls.
+        • If Tavily returns HTTP 400 twice or both calls fail:
+            → Stop retrying.
+            → Produce a fallback summary using best-effort reasoning.
+        • Never exceed 2 calls.
+        • Never ask the user for clarification.
+
+        ----------------------------------------------------------------------
+        OUTPUT REQUIREMENTS (MUST BE SHORT & ESSENTIAL)
+        ----------------------------------------------------------------------
+        You MUST produce ONE `.md` artifact containing ONLY:
+
+          1. **Research Scope** — 2–4 lines max  
+          2. **Key Legal Facts (Bullet points only)**  
+             - Statutes  
+             - Regulations  
+             - Case law  
+             - Compliance points  
+             (Include URL citations ONLY if Tavily succeeded)
+          3. **Practical Notes (Optional, 3–5 bullets)**  
+          4. **Final Research Summary (5–8 lines max)**
+
+        VERY IMPORTANT:
+        • Keep all sections CONCISE.  
+        • No long essays, no explanations longer than a few lines.  
+        • The Advisor must get a tight, distilled factual summary.
+
+        ----------------------------------------------------------------------
+        PROHIBITIONS
+        ----------------------------------------------------------------------
+        • Do NOT interpret laws — only extract facts.
+        • Do NOT produce multiple artifacts.
+        • Do NOT include long paragraphs.
+        • Do NOT repeat Tavily content verbatim — summarize it.
+
+        ----------------------------------------------------------------------
+        WORKFLOW
+        ----------------------------------------------------------------------
+        1. Receive the research request.
+        2. Split query only if necessary (max 2 segments).
+        3. Make at most two Tavily calls.
+        4. Extract ONLY essential legal facts.
+        5. Produce a SINGLE concise `.md` artifact.
+        6. Return ONLY the artifact.
+
+
+
+      inject_system_purpose: true
+      inject_response_format: true
+
+      agent_discovery:
+        enabled: true
+
+      inter_agent_communication:
+        allow_list:
+          - "LegalOrchestrator"
+
+      session_service:
+        type: "sql"
+        database_url: "sqlite:///legal_consultant.db"
+      enable_embed_resolution: false
+      enable_artifact_content_instruction: true
+
+
+      tools:
+        - tool_type: mcp
+          tool_name: tavily_search
+          connection_params:
+            type: stdio
+            command: "npx"
+            args:
+              - "-y"
+              - mcp-remote
+              - "https://mcp.tavily.com/mcp/?tavilyApiKey=${TAVILY_API_KEY}"
+
+      agent_card:
+        description: "Legal research and fact-gathering agent using Tavily."
+        skills:
+          - name: legal_research
+            id: legal_research
+            description: Performs factual legal information retrieval.
+
+      agent_card_publishing:
+        interval_seconds: 10

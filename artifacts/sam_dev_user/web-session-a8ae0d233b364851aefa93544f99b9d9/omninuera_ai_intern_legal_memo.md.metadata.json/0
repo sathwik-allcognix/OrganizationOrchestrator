@@ -1,0 +1,12 @@
+{
+  "filename": "omninuera_ai_intern_legal_memo.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 14156,
+  "timestamp_utc": 1764578220.0,
+  "description": "Legal memo summarizing findings, statutory obligations, risks, recommended clauses and answers to requested specific questions (EPF/ESI/TDS/etc.).",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

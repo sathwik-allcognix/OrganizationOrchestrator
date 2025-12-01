@@ -1,0 +1,95 @@
+# Omninuera — Offer Letter for AI Intern
+
+Date: [Date of Issue]
+
+Dear [Candidate Full Name],
+
+We are pleased to offer you an internship position with Omninuera as an **AI Intern** on the terms set out below.
+
+## 1. Position
+Role: AI Intern  
+Reporting to: [Reporting Manager]
+
+## 2. Duration
+This internship is for a fixed term of **3 months**, commencing on **[Start Date]** and ending on **[End Date — typically Start Date + 3 months]**, unless earlier terminated in accordance with this letter.
+
+## 3. Nature of Engagement
+This is an internship / temporary engagement. You will be engaged as an intern and are not an employee for any purpose unless and until a separate employment agreement is executed. You are not entitled to employee benefits (such as paid leave, health insurance, gratuity, provident fund, etc.) unless such benefits are expressly provided in writing.
+
+## 4. Stipend
+You will receive a stipend of **INR 10,000 (Ten Thousand Indian Rupees)** per month. This is expressly a stipend for the internship and not a salary or wage. Payment will be made monthly by bank transfer to the bank account details you provide (see Section 9).
+
+## 5. Work Location and Hours
+- Work location: **Fully remote**; candidate must be based in **Bengaluru**.  
+- Expected weekly commitment: **20–40 hours per week** (flexible), to be discussed with your Reporting Manager. Remote working flexibility is allowed but you are expected to coordinate with the team and attend scheduled meetings as required.
+
+## 6. Key Responsibilities
+During the internship you are expected to perform tasks including, but not limited to:
+- Data preparation and cleaning for model training and evaluation.
+- Designing and running model experiments.
+- Evaluating model performance and producing metrics/reports.
+- Documenting methods, experiments, and results.
+- Collaborating with team members on research and engineering tasks.
+
+## 7. Confidentiality and Intellectual Property (IP) Assignment
+- Confidentiality: You shall keep confidential all proprietary, business, technical, and other non-public information of Omninuera obtained during the internship, both during the internship and after its termination. You shall not disclose such Confidential Information to any third party without Omninuera's prior written consent.
+- IP Assignment: You agree that any inventions, discoveries, designs, works of authorship, software, documentation, data, improvements, or other intellectual property (collectively, "Works" or "IP") that you create, conceive, develop, or reduce to practice, either solely or jointly with others, in the course of or as a result of your internship with Omninuera shall be the sole and exclusive property of Omninuera. You hereby assign to Omninuera all rights, title, and interest in and to such Works and agree to execute and deliver any documents and take any actions reasonably requested by Omninuera to effectuate such assignment.
+
+## 8. Termination / Early Exit
+- Either party may terminate this internship by providing **one (1) week** prior written notice to the other party.  
+- Omninuera may terminate this agreement immediately for cause (including, but not limited to, material breach, gross misconduct, or violation of company policies).
+
+## 9. Stipend Payment Schedule and Bank Details
+- Stipend will be paid **monthly** by bank transfer. Payments will generally be processed within [e.g., 7] business days following the end of each calendar month for days worked in that month.
+- Please provide your **[Bank Account Details for Stipend]** in the form requested by Omninuera (e.g., account name, account number, bank name, IFSC code, branch). Omninuera is not responsible for delays if incorrect bank details are provided.
+
+## 10. Conditions
+- This offer is **subject to legal compliance review** and may be updated per the outcome of that review. This draft must be reviewed and approved by Omninuera's legal/compliance team before becoming final.
+- This offer may also be subject to background verification or other checks where applicable. Continued engagement is conditional on satisfactory completion of such checks.
+
+## 11. Taxes
+Any taxes, statutory deductions, or withholding applicable to the stipend will be handled in accordance with applicable law. Omninuera may deduct any applicable taxes or statutory contributions as required by law.
+
+## 12. Policies and Conduct
+You are expected to follow Omninuera's relevant policies and codes of conduct while engaged as an intern. Omninuera reserves the right to update policies from time to time.
+
+## 13. Governing Law and Jurisdiction
+This Agreement shall be governed by and construed in accordance with the laws of India. The parties submit to the exclusive jurisdiction of the courts in Bengaluru, India for any disputes arising out of or in connection with this Agreement.
+
+## 14. Acceptance
+To accept this offer, please sign and date below and return a scanned copy or electronic signature to HR at Omninuera by [Acceptance Deadline — insert date]. This offer is valid until then unless extended in writing.
+
+---
+
+Signatures
+
+Candidate:
+
+Name: [Candidate Full Name]  
+Signature: ________________________  
+Date: _____________________________
+
+Authorized Signatory — On behalf of Omninuera:
+
+Name: [Authorized Signatory Name & Title]  
+Signature: ________________________  
+Date: _____________________________
+
+---
+
+Plain-text Metadata Note — Missing Information / Clarifications Required to Finalize Offer Letter
+- Candidate Full Name.  
+- Start Date (and expectation of End Date, or let us compute as Start Date + 3 months).  
+- Reporting Manager name and contact details.  
+- Candidate Bank Account Details for stipend (account name, account number, bank name, IFSC, branch).  
+- Authorized Signatory Name & Title at Omninuera.  
+- Acceptance Deadline (if Omninuera wants one specified).  
+- Clarifications (optional / recommended for legal review):  
+  - Confirm whether any specific benefits (if any) should be stated as exceptions to "no entitlement to employee benefits."  
+  - Confirm payment timing details (e.g., exact processing window after month end).  
+  - Confirm whether taxes should be grossed up or if intern is responsible for their tax reporting.  
+  - Confirm whether any NDAs or additional separate documents (e.g., Data Security Addendum) should be attached.
+
+Notes:
+- This is an editable Markdown draft intended for legal/compliance review. Do NOT consider this document final until Omninuera's legal team reviews and approves it.  
+- I have NOT performed legal review. Please forward this artifact to the OrganizationOrchestrator / legal team for compliance review and to propose any legal edits. Once legal provides changes, I will implement them as requested.

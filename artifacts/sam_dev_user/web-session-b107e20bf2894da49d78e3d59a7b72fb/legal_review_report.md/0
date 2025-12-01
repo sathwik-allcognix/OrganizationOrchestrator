@@ -1,0 +1,253 @@
+LEGAL CONSULTANT RESEARCH REPORT — Omninuera AI Intern Offer (Karnataka / India)
+Artifact used as context: [Error: Invalid context type for artifact_meta, expected dict.].
+
+Executive summary (short)
+- Key statutes governing internships and employee protections in India: Minimum Wages Act, 1948; Shops and Establishments Act (Karnataka); Contract Labour (R&A) Act, 1970; Employees' Provident Funds and Misc. Provisions Act, 1952 (EPF); Employees' State Insurance Act, 1948 (ESI); Payment of Gratuity Act, 1972; Payment of Wages Act, 1936; Income Tax Act, 1961; Copyright Act, 1957; Patents Act, 1970; Information Technology Act, 2000 and related SPDI Rules. Many protections depend on whether the intern is legally an "employee" as determined by facts (control, remuneration, mutuality, integration).
+- For factual borderline internships (short-term, stipend, limited hours), risk is material that a tribunal or regulator may re-characterize as employment if facts show control/economic dependence.
+- Immediate “must-change” items (one-page summary included below) and recommended contract language appear at the end.
+
+Detailed answers to research questions (numbered)
+
+Note on approach: For each question I provide (a) concise answer, (b) statutory references (central / Karnataka where applicable), (c) short explanation, (d) suggested clause text (where applicable), and (e) practical risk level (High/Medium/Low). Where up-to-date numerical rates (minimum wages, thresholds) are required I give a calculation method and indicate that the company must check the latest state notifications before finalizing figures.
+
+1) Classification — Is the intern an employee for the purposes of (a) Minimum Wages Act, (b) Karnataka Shops & Establishment Act, (c) Contract Labour (R&A) Act, and (d) other statutory protections?
+- Concise answer:
+  - Classification depends on facts. Statutorily, none of the Acts automatically classify a “student/intern” as non-employee; instead, if the relationship amounts to employment (tests described below), the intern will be treated as an employee for the Acts listed.
+  - (a) Minimum Wages: Applicable if intern is an employee performing “work” under a contract of employment or service; otherwise not.
+  - (b) Karnataka Shops & Establishment Act: If the intern is engaged as an employee (even on stipend) in the establishment, statutory obligations (registration, hours, leave) may apply.
+  - (c) Contract Labour Act: Applied where work is done through contractors and where interns are engaged by a contractor; direct interns engaged by the company are not "contract labour" under the Act, but may be treated as employees for other obligations.
+  - (d) Other protections (EPF/ESI, Payment of Wages, etc.): apply if the statutory conditions are met (employee status, thresholds such as employee count, wage limits).
+- Statutes / rules / guidance:
+  - Minimum Wages Act, 1948 (Central); Karnataka Minimum Wages Notifications (State Govt, Department of Labour).
+  - Karnataka Shops and Commercial Establishments Act, 1961 (or consolidated Karnataka Shops & Commercial Establishments Rules/notifications).
+  - Contract Labour (Regulation & Abolition) Act, 1970.
+  - Tests used by courts (non-exhaustive): control test; integration/organization test; economic reality test (degree of subordination, mutuality of obligation, control over work and hours); courts evaluate overall relationship.
+- Short explanation:
+  - Indian statutory provisions generally do not have a separate “intern” exclusion. Whether an individual is an “employee” depends on the facts; regulators and tribunals will look beyond labels. A stipend and the word “intern” are not determinative.
+  - Examples of fact patterns suggesting employment: fixed working hours dictated by employer, tasks integral to business operations, reporting hierarchy, regular supervision, replacement of regular employee work, expectation of continuity, and payment tied to work rather than educational/research reimbursement.
+- Suggested clause text (classification / relationship):
+  - “Nature of engagement. The Parties agree that this is a fixed-term training/internship program for learning purposes and not an employment contract. The Intern shall receive a stipend of INR 10,000 per month as reimbursement for expenses and will not be entitled to employee benefits unless expressly provided in this letter. This relationship is project-based for 3 months and contains no promise or expectation of employment beyond the term. The Intern shall perform duties under supervision and will be required to submit progress reports to the Company’s Internship Coordinator. Notwithstanding the above, statutory authorities or courts may determine otherwise on factual grounds; the Company reserves the right to comply with applicable law.”
+  - (Include explicit description of training, mentor, evaluation criteria, and that tasks assigned are educational in nature.)
+- Risk level: Medium to High.
+  - Rationale: Because duties are 20–30 hrs/week and stipends are provided, administrative/regulatory bodies could find elements of employment. If work is substantive and integrated into business output, risk is High. If clearly training-oriented, with educational objectives, limited supervision, and no substitution of regular employees, risk is lower.
+
+2) Minimum wage applicability — Is INR 10,000/month for 20–30 hours/week likely below Karnataka minimum wage thresholds for comparable work?
+- Concise answer:
+  - Very likely that INR 10,000/month for 20–30 hours/week is below pro‑rata minimum wage for work of comparable skill in Karnataka if the intern is treated as an employee; but final determination requires checking the current Karnataka Minimum Wages Notification for the relevant employment category (skilled/semiskilled/unskilled/clerical/technical).
+- Statute / guidance:
+  - Minimum Wages Act, 1948 (Central). Karnataka State Minimum Wages Notifications (Department of Labour, Government of Karnataka) — check latest Gazette notifications and schedules.
+- Calculation method:
+  1. Identify the correct employment category in the Karnataka schedule (e.g., clerical, skilled, semi‑skilled).
+  2. Take the notified monthly minimum wage for that category (or daily wage × working days).
+  3. If working hours are part-time, compute pro‑rata: (Notified monthly wage × actual hours worked per week) / standard full-time hours per week (state standard; commonly 48 hours/week, but use Karnataka notification).
+  4. Alternatively compute effective hourly wage = (Monthly statutory wage) / (Standard full-time monthly hours) and multiply by actual hours to get minimum payable.
+- Example (illustrative only — CHECK current rates before use):
+  - If Karnataka minimum for category = INR 15,000/month for 48 hours/week, hourly statutory rate = 15,000 / (48 × 4.33) ≈ INR 72/hour. For 20 hours/week × 4.33 ≈ 86.6 hours/month → statutory minimum ≈ INR 6,235. However this illustrative example shows INR 10,000 might be above in that hypothetical; actual rates and categories matter.
+- Liability exposure:
+  - If intern qualifies as an employee and employer pays below statutory minimum (pro‑rated), the employer may face liability for back wages, penalties, and interest under Minimum Wages Act and state enforcement.
+- Suggested clause text:
+  - “Stipend and statutory compliance. The stipend is INR 10,000 per month. The Company will comply with applicable minimum wage laws where interns are held by a competent authority to be employees; if so, the Company may adjust stipend or make retrospective payments as required by law.”
+- Risk level: Medium.
+  - Rationale: Risk depends on the category and current notified rates. Because the internship is part-time, pro‑rata calculations are critical; obligation to compare to latest Karnataka notifications is necessary.
+
+3) EPF / ESI applicability — Are employers required to register/contribute for short-term stipend interns?
+- Concise answer:
+  - EPF: Applicability depends on whether individual qualifies as an “employee” as per the Employees' Provident Funds and Misc. Provisions Act, 1952 and whether establishment crosses the minimum employee threshold (generally 20 or more employees). If applicable, contribution obligations apply even for short-duration employees unless a specific exemption applies.
+  - ESI: Applicability depends on the Employees' State Insurance Act, 1948 (threshold of employees in the establishment — historically 10 or more in certain states) and the wage ceiling for ESI coverage (statutory monthly wage limit e.g., as notified; confirm current figure). If an intern's wages fall within the ESI wage band and the employer is covered, ESI contributions apply.
+- Statutes / notifications / thresholds:
+  - EPF Act, 1952; Employees Provident Fund Organisation (EPFO) notifications and scheme rules. Threshold: establishments with 20 or more employees are generally covered (check latest circulars).
+  - ESI Act, 1948; State implementation notifications; wage threshold (nationwide notified wage limit — e.g., historically ₹21,000/month; confirm current).
+  - EPFO and ESI have issued circulars in the past regarding apprentices/trainees — some trainees on educational programs may be excluded if clearly part of educational training; however “interns” who perform productive work may be brought within scope.
+- Short explanation:
+  - Both EPF and ESI focus on whether the person is an employee and whether the establishment is covered. Many internships are below thresholds, but regulators examine substance. Short duration does not automatically exclude an individual from coverage.
+- Suggested clause:
+  - “Statutory contributions. The Company may be required by law to register and make contributions under EPF/ESI in respect of the Intern if the Intern is regarded as an employee under applicable statutes or if coverage thresholds are met. The Company reserves the right to take any necessary action to ensure statutory compliance, including registration and making contributions, and to recover any employee-share amounts to the extent permitted by law.”
+- Risk level: Medium.
+  - Rationale: If internship is treated as employment and the establishment crosses thresholds, employer exposure is significant (contributions, interest, penalties). For small headcounts or clearly educational internships, risk lowers.
+
+4) Gratuity, leave, other entitlements — Are interns on 3-month stipends entitled to gratuity, paid leave, etc.?
+- Concise answer:
+  - Gratuity: Under the Payment of Gratuity Act, 1972, an employee becomes eligible only after 5 years of continuous service in establishments covered by the Act. A 3-month internship will not create gratuity liability.
+  - Paid leave / other entitlements: Statutory leave entitlements under Shops & Establishments Act and Payment of Wages Act apply only where the person is an employee and the establishment/employee qualifies under the respective Acts (e.g., minimum service). Many Acts require minimum service durations for some benefits; however Shops & Establishments rules in Karnataka prescribe leave, hours, etc., which may apply even for short term employees if they are “employees.”
+- Statutory citations:
+  - Payment of Gratuity Act, 1972 — Section 4 (entitlement after five years).
+  - Karnataka Shops & Commercial Establishments Act and Rules.
+- Short explanation:
+  - Short-term internships typically do not trigger gratuity. Paid leave and other entitlements depend on whether the intern is treated as an employee and on the specific thresholds and definitions in the relevant statutes.
+- Suggested clause:
+  - “No entitlement to gratuity. The Parties agree that the Intern will not be eligible for gratuity under the Payment of Gratuity Act, 1972, in respect of this 3-month internship. The Intern will not be entitled to the Company’s regular employee leave benefits except as expressly provided here.”
+- Risk level: Low to Medium.
+  - Rationale: Gratuity specifically is Low risk for 3 months. Other entitlements depend on classification; if employment classification arises, some statutory protections could be triggered.
+
+5) Tax withholding / TDS — Is company required to withhold TDS on stipends? Documentation to reduce/avoid withholding.
+- Concise answer:
+  - TDS withholding depends on the nature of payment:
+    - If the intern is legally an employee (salary), the Company must withhold TDS under Section 192 (TDS on salary).
+    - If the stipend is a contractual payment (to a contractor/consultant), withholding could be under other provisions such as Section 194C (payments to contractors), Section 194J (professional fees), or Section 194R (benefits), depending on nature. If stipend is a scholarship for educational training provided for bona fide education, it may be non-taxable in the hands of recipient (e.g., scholarship for education under Section 10(16) or similar), but many stipends are taxable unless exempted by law.
+  - Practical outcome: Employers should treat amounts as taxable unless a clear exemption applies, obtain tax forms (PAN, Form 15G/15H as applicable), and consider withholding under appropriate sections if the intern is not an employee.
+- Statutory citations:
+  - Income Tax Act, 1961 — Section 192 (TDS on salary), Section 194C, Section 194J, Section 194R, Section 10 (specific exemptions) — verify exact applicability with tax counsel.
+- Documentation checklist (recommended):
+  - PAN of Intern (mandatory for TDS purposes).
+  - Self-declaration of status (student vs. independent contractor) and copy of student identity/enrolment if claiming educational scholarship exemption.
+  - Form 15G/15H if eligible (resident individuals/non-senior citizens meeting conditions).
+  - Invoice/statement of work only where engagement is contractor-based.
+- Suggested clause text:
+  - “Taxes. The stipend payable is subject to applicable tax withholding as may be required under the Income Tax Act, 1961. The Intern agrees to provide PAN and any declaration/documentation reasonably required by the Company (including Form 15G/H where applicable). The Company will deduct TDS at the applicable rates if the payment is treated by the Company or tax authorities as taxable income.”
+- Risk level: Medium.
+  - Rationale: Misclassification and incorrect withholding can lead to tax liability and interest/penalties. Also, interns may be surprised if taxes are deducted; pre-notification and documentation reduce disputes.
+
+6) Employment/contract formation and enforceability — Is the label 'intern' + 'stipend' sufficient to avoid employment classification? Legal tests and recommended contract terms.
+- Concise answer:
+  - No. Label alone is insufficient. Courts and regulators apply factual tests (control, integration, mutuality of obligation, economic dependency, remuneration) to determine employment. Contracts should be drafted to reflect the true nature of training, supervision level, limited duration, educational objective, and absence of employment obligations.
+- Legal tests (practical):
+  - Control test: degree of control over performance (hours, place, supervision).
+  - Integration/organization test: whether the person is integrated into the employer’s business.
+  - Economic reality test: whether remuneration and economic dependence indicate employment.
+  - Mutuality of obligation: whether employer is obliged to provide work and worker to accept it.
+  - These approaches are applied by Indian courts and tribunals; no single test is decisive.
+- Recommended factual language and contract terms to reduce misclassification risk:
+  - Define objective: “training, learning, exposure, project-based deliverables.”
+  - Duration: fixed short term (3 months).
+  - Supervision: assigned mentor, defined learning goals, periodic reviews.
+  - Hours: flexible, stated maximum hours per week; allow academic obligations.
+  - Stipend: reimbursement for expenses with clear statement that it is not consideration for services (but cautious — avoid language that entirely denies consideration if work/provision of value exists).
+  - No promise of employment; no entitlement to employee benefits.
+  - No substitution: intern cannot send substitute.
+  - No authority to bind company; no independent contractor status unless specifically contracting as contractor with invoices, PAN, GST (if applicable).
+  - Right to terminate with short notice; incremental evaluation.
+- Suggested clause cluster (sample):
+  - “Purpose and nature. The Internship is a fixed-term, educationally oriented placement for professional development under supervision and mentorship. The Intern will be assigned training objectives and assessments. Stipend. The stipend is INR 10,000 per month as a reimbursement and training stipend and not a salary. No employment relationship. This agreement does not create an employment relationship; the Intern will not be entitled to employee benefits, and no promise of employment is made. Supervision. The Intern will work under the guidance of the assigned mentor and will not exercise independent authority to bind the Company. Hours and leave. The Internship requires up to 30 hours of work per week and is designed to accommodate academic commitments. Control and direction. The Company will set learning objectives and provide guidance, but the Intern retains academic control over timing subject to reasonable scheduling for mentorship.”
+- Risk level: Medium to High.
+  - Rationale: Even with careful clauses, courts focus on facts. The more the program looks and feels like regular work (regular hours, revenue-critical tasks), the higher the risk.
+
+7) IP assignment and moral rights — What formalities ensure valid assignment from intern to company; are moral rights waivable?
+- Concise answer:
+  - Copyright: Indian Copyright Act, 1957 requires that assignment of copyright be in writing and signed by the assignor specifying the rights assigned, territorial extent, duration, and amount of consideration (Section 19). Moral rights (Section 57) are personal to the author; while assignment of copyright is possible, moral rights cannot be assigned but may be waived by the author in writing (judicial practice recognizes waivers though absolute non-waivability is nuanced).
+  - Patents: Assignments must be in writing and registered with the Patent Office to be effective as against third parties (Patents Act, 1970; Sections on assignment and registration). For inventions made by interns, a written assignment/undertaking that specifically assigns future inventions and a clear statement of consideration is recommended.
+- Statutes / sections:
+  - Copyright Act, 1957 — Sections 18–19 (assignment, license), Section 17 (author defined), Section 57 (moral rights).
+  - Patents Act, 1970 — Sections on assignment/recordal (e.g., Section 68 and Rules concerning recordal).
+- Short explanation:
+  - For copyright assignment to be fully effective, the document must be signed by assignor and contain specific terms (what rights, for how long, region, remuneration). Moral rights can’t be transferred but can be waived — use explicit waiver language.
+  - For patents, an agreement assigning inventions and requiring assignment of registrations and cooperation with patent filing/assignment is recommended; record it at the Patent Office.
+- Suggested clause(s):
+  - Copyright & Moral Rights assignment clause:
+    - “IP Assignment. The Intern hereby irrevocably assigns to the Company all right, title and interest in and to any and all works, inventions, designs, developments, discoveries, improvements and deliverables (collectively 'Works') conceived, created or developed by the Intern during the Internship that relate to the Company’s business, including all copyright and related rights, worldwide, for the full term of such rights. The Intern agrees to execute all documents and do all acts as may be necessary to give full effect to this assignment. The Intern acknowledges receipt of adequate consideration for this assignment.
+    - Moral Rights Waiver. To the extent permitted by law, the Intern hereby irrevocably waives any and all moral rights in the Works and agrees not to assert any moral rights against the Company; the Intern further agrees to execute any instrument required to record such waiver.”
+  - Patent / invention assignment:
+    - “Invention Assignment. The Intern shall promptly disclose to the Company any invention conceived during the Internship and hereby assigns all right, title and interest in such inventions to the Company. The Intern shall execute assignment forms and cooperate in patent filings and recordal with the Indian Patent Office and other authorities.”
+- Practical steps:
+  - Use signed written assignment containing express terms required under Section 19 of the Copyright Act.
+  - For patents, ensure assignment/recordal with the Patent Office as required.
+- Risk level: Low to Medium.
+  - Rationale: Properly drafted and signed assignments are generally enforceable; moral rights require specific waiver language (and may be contested in rare cases). Always obtain separate signed IP assignment from the intern (not just included in an offer if signature on final agreement is separate).
+
+8) Confidentiality scope/duration — Limits on post‑termination confidentiality; recommended durations and carve-outs.
+- Concise answer:
+  - Indian courts enforce reasonable confidentiality obligations. Per public policy, perpetual restrictions on use of general skills are unenforceable; confidentiality obligations for trade secrets and proprietary business information are enforceable for as long as the information remains confidential. A 1–3 year post-termination restriction for confidentiality obligations (non-disclosure of confidential information) is commonly enforceable; perpetual protection is acceptable for trade secrets (subject to reasonableness).
+- Statutes / guidance:
+  - No single statute; obligations arise contractually and are enforced by courts. The Indian Contract Act, 1872 principles of restraint of trade (Section 27) apply to non-compete clauses. Confidentiality (non‑disclosure) is generally valid if limited to protecting trade secrets and proprietary info.
+- Short explanation:
+  - Non-disclosure obligations protect proprietary information indefinitely so long as information remains secret; limitations should not be broader than necessary. Use carve-outs for independently developed and publicly known information, or information required to be disclosed by law (e.g., court order).
+- Suggested clause text:
+  - “Confidentiality. The Intern shall maintain in confidence all Confidential Information of the Company during the Internship and thereafter for a period of 2 years, except that (i) trade secrets and proprietary technical information shall remain subject to confidentiality for as long as they retain the character of trade secret; (ii) information that is or becomes publicly available through no breach by the Intern, independently developed by the Intern without use of Company Confidential Information, or disclosed under legal compulsion, is excluded. The Intern shall return all Confidential Information and Company property upon termination.”
+- Risk level: Low.
+  - Rationale: Properly limited confidentiality clauses are routinely enforced.
+
+9) Background checks and data protection — Permissible checks, consent requirements, obligations under IT Act / DPB guidance, cross-border transfers.
+- Concise answer:
+  - Background checks are permitted with informed consent. Data protection in India currently relies on the IT Act, 2000 and SPDI Rules (2011) and sector-specific guidance; a comprehensive law (Digital Personal Data Protection Act or drafts) may exist but check latest status. Employers should obtain explicit, informed consent, limit data collection to what is necessary, implement security safeguards, and limit retention. Cross-border transfer of personal data should be minimized; if transfers occur, ensure adequate safeguards and explicit consent.
+- Statutes / guidance:
+  - Information Technology Act, 2000 (Section 43A and rules on reasonable security practices and sensitive personal data).
+  - Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 (SPDI Rules).
+  - Drafts / guidance on Digital Personal Data Protection Bill — check current status.
+- Short explanation:
+  - Consent is key. Certain checks (criminal checks) may require additional specific consent and local law considerations. For interns who are students, obtain institutional consent if required.
+- Suggested consent clause:
+  - “Background checks and data processing. The Intern consents to the Company conducting background verification including identity, academic qualifications, employment history, and criminal record checks as permitted by law. The Intern authorises the release of relevant information and agrees the Company may process personal data for the purpose of recruitment and compliance. The Company will process and store personal data in accordance with applicable laws and retain data only as necessary. The Intern may withdraw consent, subject to lawful processing performed prior to withdrawal.”
+- Data processing checklist (recommended):
+  - Purpose limitation; data minimization; documented consent; retention policy; access controls; vendor due diligence; cross-border transfer assessment and contractual safeguards (SCC-like clauses); logging and breach response plan.
+- Risk level: Low to Medium.
+  - Rationale: If consent is obtained and reasonable security is implemented, risk is low. Improper handling, particularly of sensitive data, can raise reputational and regulatory risk.
+
+10) Remote work and jurisdiction — Enforceability of choice of Bengaluru courts for an intern located in Bengaluru; implications if intern is in another state/country.
+- Concise answer:
+  - Choice of forum (Bengaluru courts / Karnataka jurisdiction) is ordinarily enforceable for parties contracting in India, provided the clause is reasonable and not mandatory law contravened. If the intern is physically located in another Indian state, jurisdiction clauses are generally upheld but courts in the forum state may decline jurisdiction in exceptional circumstances. If the intern is outside India, enforcement depends on international private law and the presence of sufficient nexus — Indian courts may require service and foreign judgments may need local enforcement proceedings.
+- Statutes / guidance:
+  - Civil Procedure Code (Sections on jurisdiction), Indian Contract Act principles. No single statute precludes forum selection within India for contractual disputes (subject to consumer protection rules where applicable).
+- Suggested clause language:
+  - “Governing law and jurisdiction. This Agreement is governed by the laws of India. The courts at Bengaluru, Karnataka shall have exclusive jurisdiction to resolve any disputes arising under this Agreement. Notwithstanding the above, the Company may seek urgent equitable relief in any competent court.”
+  - If remote intern could be outside India or in another state, include: “If the Intern is resident outside Karnataka, the parties agree that Bengaluru courts shall have exclusive jurisdiction; however nothing shall prevent the Company from pursuing interim relief in the jurisdiction where the Intern is located.”
+- Risk level: Low to Medium.
+  - Rationale: For interns located in Bengaluru this is low risk. For interns located elsewhere (another state or country), enforceability is generally respected but practical enforcement/costs may be an issue.
+
+11) Termination and withholding stipend — Can company stop stipend immediately on termination for cause; statutory protections limiting deductions?
+- Concise answer:
+  - If stipend is treated as salary, Payment of Wages Act and applicable rules limit permissible deductions; illegal deductions can attract liability. If the relationship is contractual (training stipend), parties can agree termination terms, including immediate cessation for cause, provided contract terms are clear and lawful. Statutory protections may still apply if ownership of payment is deemed wages by a regulator/court.
+- Statutes / guidance:
+  - Payment of Wages Act, 1936; Shops & Establishments Act (Karnataka) may have norms on deductions and final settlement.
+- Short explanation:
+  - Draft termination clause to permit stipend stoppage for cause and final settlement timeline. Document cause and due process to defend against claims of unfairness.
+- Suggested clause text:
+  - “Termination. Either party may terminate this Internship by giving 7 days’ written notice. For Gross Misconduct or material breach, the Company may terminate immediately and stop payment of stipend from the date of termination. Final settlement of any amounts due (pro‑rata stipend earned up to termination) will be made within 14 days of termination subject to lawful deductions. The Company will not withhold amounts that are statutorily protected; any deductions will be made only to the extent permitted by applicable law.”
+- Risk level: Medium.
+  - Rationale: If stipend is treated as wages, immediate stoppage without due process may be challenged.
+
+12) Karnataka-specific mandatory requirements for internships (registrations, insurance, welfare)
+- Concise answer:
+  - No statewide special ‘internship registry’ is commonly mandated, but applicable Karnataka statutes include Shops & Establishments registration for establishments that meet criteria, and general employer obligations (welfare measures) under state labour laws. Best practice: register the establishment under Karnataka Shops & Establishments Act (if not already), ensure statutory compliance, and consider providing personal accident/medical insurance for interns.
+- Sources:
+  - Karnataka Shops & Commercial Establishments Act, 1961; Department of Labour circulars; state labour department guidance on internships (if any) — confirm with Karnataka labour department for any recent internship-specific circulars.
+- Suggested action items:
+  - Confirm Shops & Establishments registration status; if intern performs work on company premises or remotely but is integrated into the workplace, ensure any required notices/registrations are in place.
+  - Consider standard intern welfare measures: personal accident insurance, orientation on safety, grievance contact point.
+- Risk level: Low to Medium.
+  - Rationale: No explicit internship-specific mandates are standard, but general employer obligations apply.
+
+One‑page critical “must-change” items (exact statutory citations where applicable)
+(1) Clarify nature of engagement; include explicit training objective, mentor, and evaluation; avoid indicia of employment (Minimum Wages Act, 1948; Karnataka Shops & Establishments Act, 1961). Risk: Medium–High.
+(2) Stipend and minimum wage compliance clause: include compliance/back‑pay provision if authorities treat intern as employee (Minimum Wages Act, 1948 — state notifications). Risk: Medium.
+(3) Tax clause: explicit TDS withholding clause; require PAN and self-declarations (Income Tax Act, 1961 — Section 192 and relevant sections). Risk: Medium.
+(4) IP assignment: include signed, standalone IP assignment ensuring compliance with Copyright Act, 1957 (Section 19) and Patents Act recordal. Risk: Low.
+(5) Confidentiality: limit duration and carve-outs; treat trade secrets specially. (Contract law + Section 27 Indian Contract Act principles). Risk: Low.
+(6) Termination and final settlement: provide clear termination for cause and final settlement timeline consistent with Payment of Wages Act, 1936 and Shops Rules (if found applicable). Risk: Medium.
+(7) Data protection: add explicit consent clause for background checks and data processing (IT Act 2000 / SPDI Rules). Risk: Low.
+(8) Insurance & welfare: obtain personal accident insurance for interns and a safety orientation (Karnataka Shops & Establishments welfare guidance). Risk: Low.
+
+Suggested redlines and replacement clauses (high-priority samples)
+- Add a “Nature of Engagement / Training” clause (see Section 6 suggested cluster above).
+- Add a “Statutory Compliance” clause acknowledging possible re-characterization and reserving right to comply/adjust payments.
+- Add strong IP assignment & moral rights waiver (see Section 7).
+- Add Data Processing and Background Check consent clause (Section 9).
+- Add Termination and Final Settlement clause (Section 11).
+- Add TDS & tax clause (Section 5).
+
+Limitations, caveats, and next steps
+- This research outlines statutory frameworks, test approaches and sample clauses. It does not replace local counsel review. Specific numerical thresholds (minimum wages, ESI wage limit, EPF thresholds) change frequently; confirm latest Karnataka notifications and central notifications prior to finalization.
+- Recommended next steps:
+  1. Obtain up-to-date Karnataka Minimum Wages schedule and compute pro‑rata hourly/monthly minimum for the applicable employment category.
+  2. Review the intern’s actual tasks and deliverables to align contract language with facts (to reduce misclassification risk).
+  3. Obtain dedicated signed IP assignment and a confidentiality & data processing annex executed by the intern.
+  4. Consider purchasing general liability / personal accident insurance covering interns.
+
+Authoritative statutory references (central & Karnataka, for further verification)
+- Minimum Wages Act, 1948 (Central). Karnataka Minimum Wages notifications (Department of Labour, Govt. of Karnataka) — consult most recent Gazette.
+- Shops & Commercial Establishments Act, Karnataka (c.1961) and Rules.
+- Contract Labour (Regulation & Abolition) Act, 1970.
+- Employees’ Provident Funds & Misc. Provisions Act, 1952 and EPFO Scheme Rules.
+- Employees’ State Insurance Act, 1948 and ESI Rules.
+- Payment of Gratuity Act, 1972.
+- Payment of Wages Act, 1936.
+- Income Tax Act, 1961 — Section 192, 194C, 194J, etc.
+- Copyright Act, 1957 — Sections 18–19, 57.
+- Patents Act, 1970 — sections on assignment and recordal.
+- Information Technology Act, 2000; SPDI Rules, 2011.
+- Karnataka Labour Department circulars (check for any internship-specific notices).
+
+If you want, I can now:
+- (A) produce the annotated/redline offer letter implementing all “must-change” clauses (I will create omninuera_ai_intern_offer_redline.md).
+- (B) compute a sample minimum-wage pro‑rata calculation if you provide the exact occupational category (e.g., “clerical/IT/technical”) and latest Karnataka rate (or allow me to fetch current notification).
+- (C) produce machine‑readable JSON of required changes (I will produce required_changes.json).
+
+Which of (A)-(C) should I produce now, or should I produce all three artifacts (report, redline, JSON) together — I have created the detailed report above and will now save the annotated/redline and JSON artifacts as requested.

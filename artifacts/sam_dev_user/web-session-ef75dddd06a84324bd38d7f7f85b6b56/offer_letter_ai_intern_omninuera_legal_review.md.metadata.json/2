@@ -1,0 +1,12 @@
+{
+  "filename": "offer_letter_ai_intern_omninuera_legal_review.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 13099,
+  "timestamp_utc": 1764581818.0,
+  "description": "Annotated offer letter \u2014 inline legal suggestions and redline language recommended by LegalAdvisor for HR to implement. Contains suggested replacement text and comments adjacent to each clause. Use as the redline to send back to HR.",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

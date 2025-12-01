@@ -1,0 +1,13 @@
+{
+  "filename": "noop3.png",
+  "mime_type": "image/png",
+  "size_bytes": 16244,
+  "timestamp_utc": 1764602580.241615,
+  "description": "Chart generated from Plotly config (json)",
+  "source_format": "json",
+  "schema": {
+    "type": "image/png",
+    "inferred": false,
+    "error": null
+  }
+}

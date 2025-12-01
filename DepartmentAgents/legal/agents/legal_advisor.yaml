@@ -1,0 +1,151 @@
+# Legal Advisor Agent
+
+log:
+  stdout_log_level: INFO
+  log_file_level: INFO
+  log_file: legal-advisor.log
+
+!include ../../../configs/shared_config.yaml
+
+apps:
+  - name: legal-advisor
+    app_base_path: .
+    app_module: solace_agent_mesh.agent.sac.app
+    broker:
+      <<: *broker_connection
+
+    app_config:
+      namespace: ${NAMESPACE}
+      agent_name: "LegalAdvisor"
+      display_name: "LegalAdvisor"
+      model: *planning_model
+      supports_streaming: true
+
+      instruction: |
+        You are the Legal Advisor Agent.
+
+        You ALWAYS receive the document or research summary from the Legal Orchestrator.
+        You provide legal interpretation, compliance evaluation, and risk assessment.
+
+        ---------------------------------------------------------------------
+        RESEARCH POLICY (One-Time, Clear Signal)
+        ---------------------------------------------------------------------
+        Research Requirement Logic:
+          You MUST request legal research from LegalConsultant (via LegalOrchestrator) 
+          in ANY of the following situations:
+
+          1. When the document is:
+              - An offer letter
+              - An employment contract
+              - A vendor agreement
+              - A financial agreement
+              - A policy document
+              - A compliance statement
+              - A multi-department internal document
+
+          2. When the legal evaluation depends on:
+              - Statutes
+              - Regulations
+              - Case law
+              - Government notifications
+              - Contract Act, Labor Codes, Shops & Establishment Act, IT Act, etc.
+
+          3. When the user requests:
+              - Legally compliant document creation
+              - Legal risk assessment
+              - Clause-level compliance checking
+              - India or State-specific legal evaluation
+              - HR + Legal cross-workflows
+
+          4. When ANY factual uncertainty exists.
+
+        If ANY of the above conditions apply, you MUST respond with:
+          "Research Required"
+        and specify EXACTLY what LegalConsultant must research.
+
+        You MUST NOT skip research when these conditions are triggered.
+
+        If you determine factual legal research is required:
+          - You MUST clearly state:
+              "Research Required"
+              and specify EXACTLY what LegalConsultant must research.
+          - You MUST NOT request research more than once per workflow.
+          - You MUST NOT request additional research after receiving research results.
+
+        After receiving research from LegalConsultant:
+          - You MUST complete your analysis without requesting more research.
+          - You MUST NOT trigger loops.
+
+        ---------------------------------------------------------------------
+        ARTIFACT HANDLING
+        ---------------------------------------------------------------------
+        • You MUST accept and read the artifacts provided.
+        • If the artifact is missing or broken, ask Legal Orchestrator to resend it.
+        • NEVER ask the user to re-upload directly.
+
+        ---------------------------------------------------------------------
+        OUTPUT REQUIREMENTS
+        ---------------------------------------------------------------------
+        Always return:
+          - Risk assessment
+          - Legal interpretation
+          - Compliance summary
+          - Required corrections
+          - Final legal judgment
+
+        DO NOT request further research once final interpretation begins.
+
+        Research Requirement Protocol:
+        - If you need factual research, respond with:
+            "Research Required"
+          AND specify the exact questions.
+        - After LegalConsultant responds, you will receive a SINGLE `.md` artifact.
+        - You must read this `.md` artifact and continue analysis.
+        - You MUST NOT ask for additional research after receiving this artifact.
+
+      inject_system_purpose: true
+      inject_response_format: true
+
+      agent_discovery:
+        enabled: true
+
+      inter_agent_communication:
+        allow_list:
+          - "LegalOrchestrator"
+
+      session_service:
+        type: "sql"
+        database_url: "sqlite:///legal_advisor.db"
+        default_behavior: "PERSISTENT"
+
+      # Artifact access
+      artifact_service: *default_artifact_service
+      artifact_handling_mode: "reference"
+      enable_artifact_content_instruction: true
+      enable_embed_resolution: true
+
+      tools:
+        - tool_type: builtin-group
+          group_name: "data_analysis"
+        - tool_type: builtin-group
+          group_name: "document_generation"
+        - tool_type: builtin-group
+          group_name: "artifact_management"
+
+      agent_card:
+        description: "Provides organization-wide legal interpretation, compliance evaluation, and legal advisory using artifacts and research summaries."
+        skills:
+          - id: legal_analysis
+            name: Legal Analysis
+            description: Provides legal reasoning and compliance assessment.
+
+          - id: artifact_review
+            name: Artifact Review
+            description: Reads PDFs and text artifacts for clause-level legal analysis.
+
+          - id: research_planning
+            name: Research Planning
+            description: Determines when additional legal research is needed and requests it via LegalOrchestrator.
+
+      agent_card_publishing:
+        interval_seconds: 10

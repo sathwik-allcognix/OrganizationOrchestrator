@@ -1,0 +1,130 @@
+Omninuera AI - Intern Offer Letter (Draft) — Legal Review
+=======================================================
+
+Legal summary (primary concerns & required clarifications)
+- Primary legal concerns: (1) Strengthen IP assignment language and execution mechanics to ensure enforceability under Indian law; (2) Clarify stipend classification to reduce misclassification risk and state tax/TDS and social security (PF/ESI) consequences; (3) Confirm whether the internship falls under the Apprentices Act or is academic/short-term training — this affects registration and statutory obligations.
+- Required clarifications for HR: Is this internship (a) part of an academic course (credit-bearing), (b) a bona fide training program with a structured learning plan and supervision, or (c) regular productive work akin to employment? Also confirm candidate age and nationality/visa status.
+- (If applicable) Please confirm stipend amount, internship duration, weekly hours, and whether the company intends to treat the intern as a "trainee" or a "temporary employee."
+
+---
+Below is the original draft with inline bracketed legal suggestions. Preserve the original text and headings where possible; bracketed comments indicate suggested edits, required clarifying language, or optional stronger clauses. Where a full replacement clause is recommended, I provide the recommended wording inside the bracketed suggestion.
+
+[Note to HR: Do not remove these bracketed comments until legal sign-off. Each bracketed comment identifies legal risk and recommends remedial language.]
+
+[Document begins — original content preserved; bracketed comments inserted inline]
+
+Date: [Insert Date]
+
+To,
+[Candidate Name]
+[Address]
+
+Subject: Offer of Internship with Omninuera AI
+
+Dear [Candidate Name],
+
+We are pleased to offer you an internship position as AI Research Intern at Omninuera AI.
+
+1. Internship Period
+Start Date: [Start Date]
+End Date: [End Date]
+Reporting Manager: [Name]
+
+[LEGAL SUGGESTION: Confirm whether the stated period is the full and final internship window. If the internship is for more than six months, consider clarifying mid-term reviews and whether any renewal or extension is subject to separate written agreement.]
+
+2. Stipend
+You will be paid a monthly stipend of INR [amount] payable in arrears.
+
+[LEGAL SUGGESTION: The draft currently uses the term "paid" and "stipend" interchangeably. To reduce misclassification risk, revise to: "You will receive a monthly training stipend of INR [amount], payable in arrears. This stipend is provided as consideration for the structured training and experience and does not constitute salary, wages, or remuneration for employment under applicable labour laws." Also add: "This stipend is subject to deduction of income tax (TDS) as per applicable law. The Company will deduct taxes as required by law." If the Company intends to treat the intern as an employee for benefits (PF/ESI), state that explicitly and ensure statutory registrations are completed.]
+
+[LEGAL SUGGESTION: Add the following clarifying sentence where appropriate: "This internship is intended to be a training and learning programme; it is not employment for the purposes of employment benefits such as Provident Fund, Employee State Insurance, gratuity, paid leave, or bonus, unless required by law or as expressly stated in a separate written agreement." Note: If the internship qualifies as an apprenticeship or is substantial productive work, statutory obligations (including PF/ESI and Apprentices Act registration) may apply — see statutory section below.]
+
+3. Duties and Location
+You will be required to perform such duties as may be reasonably assigned to you by your Reporting Manager. Work location: [Office / Remote / Hybrid].
+
+[LEGAL SUGGESTION: Include language on hours and supervision to evidence training nature: "You will be provided with a structured training plan, supervision by assigned personnel, and opportunities for learning. Expected hours: approximately [X] hours per week." This helps distinguish a training internship from employment under Indian law.]
+
+4. Confidentiality
+During your Internship and thereafter, you agree to keep confidential and not disclose any confidential information.
+
+[LEGAL SUGGESTION: Specify duration and scope. Recommended insertion: "You shall maintain in strict confidence all Confidential Information during the Internship and for a period of three (3) years following the termination of the Internship, except that trade secrets shall remain confidential indefinitely or for as long as they retain their confidential nature." Also define "Confidential Information" precisely in the draft (business plans, code, models, datasets, customer information, etc.).]
+
+[LEGAL SUGGESTION: If you wish to include narrow non-solicitation provisions, limit time and scope and avoid non-compete language which is of questionable enforceability in India. Example: "For a period of 12 months following the termination of the Internship, the Intern will not solicit or attempt to solicit for employment the Company's employees or contractors with whom the Intern had direct contact." Do not include broad post-termination non-competes.]
+
+5. Intellectual Property (IP)
+You agree that all inventions, designs, developments, improvements, processes, know-how, code and other work product created by you during the internship shall be the property of Omninuera AI.
+
+[LEGAL SUGGESTION: Strengthen enforceability: include clear assignment language, consideration statement, exclusions for prior inventions, and requirement to execute formal assignment documents. Recommended replacement clause below:
+
+[LEGAL SUGGESTION: Recommended IP Assignment Clause — Consider inserting as replacement for the above paragraph]
+
+"Intellectual Property Assignment.
+a) The Intern acknowledges and agrees that all inventions, discoveries, developments, innovations, designs, code, know‑how, works of authorship, models, processes, reports, datasets and other work product, whether or not patentable or registrable under any intellectual property law, created, conceived, reduced to practice or made by the Intern, solely or jointly with others, during the Internship period and in the course of or relating to the Company's business (collectively 'Company IP') shall be the sole and exclusive property of the Company.
+b) To effectuate such ownership, the Intern hereby irrevocably assigns, transfers and conveys to the Company all right, title and interest in and to the Company IP, including all patents, copyrights, moral rights (to the extent assignable), trade secret rights and any other proprietary rights, and agrees to execute and deliver any documents or instruments and take such further steps as may be necessary to secure, maintain, or perfect such rights in the Company. The Intern further appoints the Company as the Intern's attorney to execute such documents if the Intern fails to do so upon reasonable request.
+c) The Intern represents that as of the Start Date, the Intern has listed in Schedule A attached hereto any inventions, works, or other intellectual property that the Intern claims were conceived or developed prior to the Internship ('Prior IP'). The Company shall not claim any ownership of such Prior IP.
+d) The Intern acknowledges that the stipend and the training opportunity provided hereunder constitute fair consideration for the assignment obligations set forth above."
+
+[LEGAL SUGGESTION: Under Indian law, assignment and transfer of copyright is recognized and enforceable where it is reduced to writing and signed by author. Patent assignment similarly is recognized. Ensure that the Company obtains written assignment and, where appropriate, files assignments and recordals. Also consider adding an express waiver of moral rights to the extent permitted by law and an undertaking to assist in filing/defending IP filings.]
+
+6. Return of Company Property
+You shall return all Company property on termination.
+
+[LEGAL SUGGESTION: Add: "All Company property must be returned immediately upon termination. Any Company-owned materials, datasets, code, hardware or documents created by the Intern are Company property." Also include obligation to delete any copies from personal devices and certify deletion.]
+
+7. Termination
+The Company may terminate this Internship at any time with immediate effect.
+
+[LEGAL SUGGESTION: Recommend clarifying notice and payment on termination: "Either party may terminate the Internship by providing [one week / X days] written notice to the other party. The Company may terminate with immediate effect for cause (including breach of confidentiality, gross misconduct, or falsification of credentials). Upon termination, the Intern will be paid any stipend due on a pro rata basis up to the date of termination, subject to applicable tax deductions." Immediate termination for cause should be preserved, but avoid ambiguous constructive dismissal language. If the Company wants no notice either side, document the mutual right but still confirm pro rata payment and return obligations.]
+
+8. Governing Law
+This Agreement shall be governed by the laws of India.
+
+[LEGAL SUGGESTION: Add jurisdiction clause if desired: "Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of courts in [City], India." If the Company prefers arbitration, specify seat and rules and ensure arbitration clause is appropriate for interns.]
+
+9. Taxes and Statutory Deductions
+[Original text about taxes, if any, preserved here.]
+
+[LEGAL SUGGESTION: Explicit recommended wording: "The stipend is subject to deduction of taxes at source (TDS) under the Income Tax Act, 1961, and any other applicable statutory deductions. The Intern is responsible for complying with his/her personal tax obligations. If, pursuant to applicable law or governmental authorities, the Company is required to make contributions (e.g., Provident Fund, ESI) in respect of the Intern, the Company reserves the right to make such deductions or to treat the Intern as an employee for the limited purpose of compliance."]
+
+10. Apprentices Act / Applicable Statutes
+[LEGAL SUGGESTION: Insert advisory language: "If the Internship qualifies as an apprenticeship under the Apprentices Act, 1961 (or any successor statute), the Company will register the Intern on the appropriate apprenticeship portal and comply with applicable requirements. HR must confirm whether the Intern's role falls under the Apprentices Act or the company's internship policy; if so, additional statutory obligations (including minimum stipend guidelines, training plans, and registration) may apply." Also note that Shop & Establishment laws and state-level rules may apply depending on the workplace.]
+
+11. Background Checks
+This offer is subject to satisfactory background verification.
+
+[LEGAL SUGGESTION: Preserve but ensure you have consent line for background checks and specify consequences if not cleared.]
+
+12. Acceptance
+Please sign and return a copy of this letter by [date].
+
+[LEGAL SUGGESTION: Add explicit acceptance statement and signature block. Also add: "By signing, the Intern acknowledges having read and understood the confidentiality and IP obligations and agrees to execute any further documents necessary to give effect to these obligations."]
+
+Signature:
+
+For Omninuera AI
+[Name, Title]
+
+Intern:
+[Name, Date]
+
+---
+
+Additional Legal Notes & Recommendations (not inline)
+- IP assignment enforceability under Indian law: Assignment of copyright/patent is enforceable if in writing and signed by assignor. For works created during an internship, a clear written assignment together with the consideration (stipend/training) and requirement to sign further documents (assignment deeds) strengthens enforceability. Keep explicit records of when works were created and under whose supervision.
+- Confidentiality duration: A 3-year survival for confidentiality plus indefinite protection for trade secrets is reasonable. Courts may scrutinize overly broad confidentiality terms — ensure definitions are clear and limited to legitimate business interests.
+- Stipend classification: Use "training stipend" language, clarify it's not salary, specify that intern is not entitled to employment benefits. However, if intern performs substantive productive work, PF/ESI and other benefits may be triggered. Maintain a clear training plan, supervised hours, and no guarantee of employment to help reduce misclassification risk.
+- Apprentices Act & registration: If the internship is part of an academic course or designated as an apprenticeship, register under the Apprentices Act; failure to do so can lead to penalties. If unsure, HR should provide the learning plan and confirm whether the program maps to an accredited course.
+- Tax/TDS: Company must deduct TDS if applicable. Interns may be required to submit PAN, and the Company should include TDS language and request PAN and bank details.
+- Termination: Keep notice short (e.g., one week) or allow immediate termination for cause. Ensure pro rata stipend payment and return obligations are specified.
+
+Requested clarifications for HR (repeat, concise)
+- Is this internship (a) part of an academic course / apprenticeship, (b) purely voluntary training, or (c) performing core productive work for the Company?
+- Intern's age and nationality/visa status.
+- Stipend amount, expected weekly hours, and length of internship.
+
+If you would like, I can:
+- Produce a clean "legally approved" version (option a) adopting the recommended replacement clauses above if HR confirms the clarifications.
+- Produce a short contract addendum (assignment deed) that the intern can sign to formalize IP transfer and moral rights waiver.
+- Provide a redlined PDF or tracked-changes version for HR to circulate.
+
+End of legal review artifact.

@@ -1,0 +1,42 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.metadata.v0.json",
+  "mime_type": "text/json",
+  "size_bytes": 1336,
+  "timestamp_utc": 1764596847.0,
+  "description": "Version 0 metadata for research_raw_sources_for_legaladvisor.md (created because original v0 was missing).",
+  "schema": {
+    "type": "text/json",
+    "inferred": true,
+    "error": null,
+    "structure": {
+      "filename": "str",
+      "metadata_version": "int",
+      "created_by": "str",
+      "created_at": "str",
+      "provenance": {
+        "original_metadata_found": "bool",
+        "source_of_defaults": "str",
+        "derived_from_artifact": "str",
+        "derived_from_artifact_version": "int",
+        "notes": "str"
+      },
+      "jurisdiction_scope": "str",
+      "applicable_laws": [
+        "str"
+      ],
+      "date_limits_for_sources": "str",
+      "search_keywords_used": [
+        "str"
+      ],
+      "exclusions_applied": [
+        "str"
+      ],
+      "source_urls": [],
+      "tags": [
+        "str"
+      ],
+      "schema_type": "str",
+      "schema_note": "str"
+    }
+  }
+}

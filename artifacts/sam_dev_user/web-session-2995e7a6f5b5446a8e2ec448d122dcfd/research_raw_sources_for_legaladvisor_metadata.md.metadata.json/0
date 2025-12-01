@@ -1,0 +1,12 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor_metadata.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 2567,
+  "timestamp_utc": 1764596850.0,
+  "description": "Companion metadata / contextual defaults for research_raw_sources_for_legaladvisor.md (original version 0) - contains jurisdiction, laws considered, date limits, search keywords, exclusions, and loading guidance.",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

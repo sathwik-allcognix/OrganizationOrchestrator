@@ -1,0 +1,124 @@
+# Omninuera — AI Intern Offer Letter (Final)
+
+Confirmation — Mandatory items implemented
+- Added candidate representation re: age and student status (explicit confirmation of age and student-credit details).
+- Replaced Work Location clause with Legal's remote-work wording (home address as Work Location; remote-work/data-security obligations).
+- Replaced Stipend clause with Legal's wording requiring PAN, payment in arrears by bank transfer, and reserving the company's right to deduct taxes/statutory deductions.
+- Added explicit weekly-hours clarification.
+- Inserted benefits clarification (benefits only if set out in separate agreement).
+- Replaced Confidentiality clause with Legal's two-year confidentiality clause with carve-outs and return/destroy obligations.
+- Replaced IP / Work Product clause with Legal's narrower assignment and pre-existing IP carve-out.
+- Replaced Termination clause with Legal's seven (7) day notice default and pro rata payment language.
+- Replaced Background Check clause with Legal's explicit consent and separate-signed-consent requirement.
+- Replaced Data Protection and Taxes clauses per Legal's recommended language.
+- Replaced Governing Law and Acceptance clauses as recommended by Legal.
+
+Implementation note
+None — all legal language adopted verbatim.
+
+---
+
+Date: «[Date of Issue]»
+
+To: [Candidate Full Name]  
+Address: [Candidate Address]
+
+Subject: Offer of Internship (AI Intern) — Fixed Term
+
+Dear [Candidate Full Name],
+
+We are pleased to offer you a fixed-term internship with Omninuera in the position of **AI Intern** on the terms set out in this letter. This offer is subject to the terms and conditions described below and to your acceptance of this letter.
+
+1. Position and Reporting
+- Role Title: AI Intern.  
+- Reporting Line: [Reporting Manager / Team].  
+- Employment Type: Fixed-term internship for a period of **3 (three) months** starting on **[Start Date]** (the "Start Date"). The internship will end automatically on the date that is three months from the Start Date unless extended in writing by mutual agreement.
+
+**Representation re: age and student status:**  
+"You represent and warrant that you are at least 18 years of age and that the information provided by you to Omninuera is true and correct. If this internship forms part of an academic program for credit, please indicate the educational institution and any credit requirements here: [Educational Institution & Credit Details]."
+
+2. Work Location and Jurisdiction
+"Work Location: Fully remote. Your principal place of performance will be your home address in Bengaluru, India (the 'Work Location'). You agree to comply with Omninuera's remote work, data security and equipment policies when performing duties remotely. Any company data must be processed and stored in accordance with Omninuera policies and applicable law."
+
+3. Compensation
+"Stipend: INR 10,000 (Indian Rupees Ten Thousand) per month, payable monthly in arrears by bank transfer. You must provide your PAN and any tax declarations required prior to first payment. Omninuera may deduct income tax and other statutory deductions as required by applicable law. The stipend is intended as a training stipend; Omninuera may treat it as remuneration for statutory or tax purposes as required by law."
+
+- Payment Schedule: [Payment schedule details — e.g., monthly in arrears by the last working day of each month; enter bank details for disbursement].
+
+4. Duration and Extension
+- Term: This internship is for a fixed term of 3 months commencing on [Start Date] and ending on [End Date = Start Date + 3 months], unless earlier terminated under the termination provisions below. Any extension must be agreed in writing by both parties.
+
+5. Working Hours and Attendance
+- Working Hours: [Working Hours / Weekly Time Commitment]. Expected to be available during mutually agreed core hours and to attend scheduled meetings, reviews, and team activities.
+
+"You will not be required to work more than [X] hours per week (recommendation: 20–40 hours depending on program) without prior agreement. If you are a student, the working hours will be consistent with your educational institution's requirements."
+
+- Absence: Planned leave should be communicated and approved in advance. Unplanned absence should be notified to the reporting manager as soon as reasonably practicable.
+
+6. Benefits
+- The intern will receive no benefits other than the stipend unless HR specifies standard intern perks.  
+"If any benefits are provided (for example, insurance, equipment, or reimbursements), these will be set out in a separate agreement."
+
+7. Confidentiality
+"Confidentiality. During and for a period of two (2) years following the termination of the internship (or longer if required by law), you shall keep confidential all non-public information that Omninuera designates as confidential or that by its nature would be considered confidential ('Confidential Information'). Confidential Information excludes information that (a) is or becomes public other than by reason of your breach; (b) was lawfully known to you prior to disclosure; or (c) is independently developed without use of Omninuera's Confidential Information. You may disclose Confidential Information if required by law, provided you (to the extent legally permitted) promptly notify Omninuera and cooperate to limit disclosure. On termination you will return or destroy Confidential Information as directed."
+
+8. Intellectual Property and Work Product
+"'Work Product' means inventions, discoveries, developments, improvements, works of authorship, data, software, documentation, designs, processes or other materials that you conceive, develop, or create during the internship and that either (a) relate directly to Omninuera's business or tasks assigned to you during the internship; or (b) are created using Omninuera's confidential information or resources. You agree to assign to Omninuera all right, title and interest in Work Product and to execute documents reasonably necessary to effectuate this assignment. Notwithstanding the foregoing, you retain ownership of any pre-existing intellectual property and any academic projects or code developed prior to the internship that you disclose in writing to Omninuera prior to the Start Date."
+
+9. Termination
+"Termination for Convenience: Either party may terminate this internship by providing seven (7) days' prior written notice to the other party. Omninuera may, at its discretion, make a pro rata stipend payment in lieu of notice. Termination for Cause: Omninuera may terminate the internship immediately for cause, including but not limited to material breach of this letter, misconduct, violation of policies, gross negligence, willful damage to company systems, or criminal activity. Effect of Termination: Upon termination, you must return all company property and Confidential Information. Any stipend owed up to the date of termination will be paid pro rata, subject to statutory deductions."
+
+10. Compliance with Company Policies and Code of Conduct
+- You are required to comply with Omninuera's policies, including but not limited to policies on acceptable use, information security, data protection, anti-harassment, and the company code of conduct. HR will provide relevant policy documents which form part of this engagement.
+
+11. Background Checks
+"This offer is conditional upon satisfactory completion of background checks. You hereby consent to Omninuera and its authorised agents conducting background checks, which may include identity verification, educational qualification verification, past employment verification and criminal record checks. Details of the scope and vendor are: [Background Check Scope / Vendor Details]. Omninuera will obtain a separate signed consent form prior to performing such checks and will process any personal data in accordance with its Privacy Policy. If you do not consent or if results are unsatisfactory, Omninuera may withdraw this offer."
+
+12. Data Protection and Privacy
+"Omninuera will process your personal information in accordance with applicable law and Omninuera's Privacy Policy [insert link]. By accepting this offer, you consent to the processing of your personal data for recruitment, background checks, administration of this internship and related purposes. For queries on data processing, contact [HR Contact]. Personal data will be retained only as long as necessary for the purposes described and in accordance with applicable law."
+
+13. Taxes and Statutory Deductions
+"You are responsible for any taxes payable in respect of the stipend. Omninuera will deduct tax at source or other statutory deductions from your stipend payments as required by applicable law. You must provide your PAN and any required declarations to enable correct tax treatment."
+
+14. No Guarantee of Future Employment
+- This internship does not constitute a promise of employment. Any offer of further employment after the internship must be in writing and signed by an authorised representative of Omninuera.
+
+15. Miscellaneous
+- Entire Agreement: This letter sets out the terms of the internship and supersedes any prior discussions or understandings on this subject.  
+- Amendments: Any amendment to this letter must be in writing and signed by both parties.  
+- Severability: If any provision of this letter is found unenforceable, the remainder shall remain in full force and effect.  
+- Assignment: Omninuera may assign this letter or any of its rights hereunder.
+
+16. Governing Law and Jurisdiction
+"This letter shall be governed by and construed in accordance with the laws of India. The courts at Bengaluru shall have exclusive jurisdiction to adjudicate any dispute arising out of or in connection with this letter."
+
+17. Acceptance
+"To accept this offer, sign and return the letter by email within seven (7) calendar days. Acceptance is conditional on provision of (i) a copy of a government-issued ID and PAN, (ii) satisfactory background check results, and (iii) any other documents requested by HR."
+
+Accepted and agreed:
+
+Candidate: _________________________________  
+Name: [Candidate Full Name]  
+Signature: ________________________________  
+Date: ___________________
+
+On behalf of Omninuera:
+
+Name: [HR Contact Name]  
+Title: [HR Contact Title]  
+Signature: ________________________________  
+Date: ___________________
+
+---
+
+Attachments (if any): [List any attachments — e.g., Company Policies, NDA, Intern Onboarding Checklist, Equipment Agreement]
+
+This final offer has incorporated Legal's required edits as per the redlined review. HR must complete all bracketed placeholders and follow the recommended next steps before issuing.
+
+Recommended next steps (reiterated)
+- HR to complete bracketed placeholders and confirm payroll/stipend payment method.
+- Collect candidate ID, PAN, and signed background-check consent prior to first payment.
+- Run background checks and confirm satisfactory results.
+- Set up stipend payment (bank details) and payroll withholding as required.
+- Provide intern with remote work, data-security, and onboarding materials.
+

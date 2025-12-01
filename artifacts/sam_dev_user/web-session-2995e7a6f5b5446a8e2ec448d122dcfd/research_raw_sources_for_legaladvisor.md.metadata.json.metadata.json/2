@@ -1,0 +1,45 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.md.metadata.json",
+  "mime_type": "application/json",
+  "size_bytes": 1375,
+  "timestamp_utc": 1764596689.0,
+  "description": "Metadata for research_raw_sources_for_legaladvisor.md (version 0) populated with LegalConsultant defaults",
+  "schema": {
+    "type": "application/json",
+    "inferred": true,
+    "error": null,
+    "structure": {
+      "filename": "str",
+      "metadata_filename": "str",
+      "version": "int",
+      "description": "str",
+      "content_type": "str",
+      "size": "int",
+      "created_by": "str",
+      "created_at": "str",
+      "source_urls": [],
+      "tags": [
+        "str"
+      ],
+      "schema_type": "str",
+      "schema_inferred": "bool",
+      "jurisdiction_scope": "str",
+      "applicable_laws": [
+        "str"
+      ],
+      "date_limits_for_sources": "str",
+      "search_keywords_used": [
+        "str"
+      ],
+      "exclusions_applied": [
+        "str"
+      ],
+      "defaults_used": {
+        "jurisdiction_scope": "str",
+        "date_limits_for_sources": "str",
+        "exclusions": "list"
+      },
+      "notes": "str"
+    }
+  }
+}

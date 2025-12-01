@@ -1,0 +1,12 @@
+{
+  "filename": "legal_sensitive_clauses_for_review.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 2414,
+  "timestamp_utc": 1764594901.0,
+  "description": "List of legal-sensitive clauses in the internship offer for Legal to review.",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source_filename": "research_raw_sources_for_legaladvisor.md",
+  "version": 0,
+  "created_by": "LegalAdvisor",
+  "created_at": "2025-12-01T13:55:02.335631",
+  "jurisdiction_scope": "Pan-India",
+  "applicable_laws": [
+    "Indian Contract Act, 1872",
+    "Industrial Disputes Act, 1947",
+    "Information Technology Act, 2000",
+    "Shops and Establishments Acts (state-specific)",
+    "Central Labour Codes (as applicable)"
+  ],
+  "date_limits_for_sources": "2010-01-01 to 2025-12-01",
+  "search_keywords_used": [
+    "employment agreement",
+    "vendor contract",
+    "compliance",
+    "IT Act",
+    "data protection",
+    "termination clause",
+    "service level agreement",
+    "contract breach"
+  ],
+  "exclusions_applied": [
+    "non-authoritative blogs",
+    "paywalled sources not accessed",
+    "social media posts",
+    "forum discussions"
+  ],
+  "notes": "Version 0 created to provide baseline metadata for research. Use this to guide source selection, filtering, and scope for LegalConsultant and LegalAdvisor workflows."
+}

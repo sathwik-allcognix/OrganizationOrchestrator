@@ -1,0 +1,44 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.md",
+  "metadata_filename": "research_raw_sources_for_legaladvisor.md.metadata.json",
+  "version": 0,
+  "description": "Metadata for research_raw_sources_for_legaladvisor.md. Populated with LegalConsultant defaults because original metadata was not found.",
+  "content_type": "application/json",
+  "size": 512,
+  "created_by": "LegalConsultant",
+  "created_at": "2025-12-01T13:40:11.542456",
+  "source_urls": [],
+  "tags": [
+    "legal",
+    "research",
+    "raw_sources"
+  ],
+  "schema_type": "research_metadata",
+  "schema_inferred": true,
+  "jurisdiction_scope": "Pan-India",
+  "applicable_laws": [
+    "Indian Contract Act, 1872",
+    "Industrial Disputes Act, 1947",
+    "IT Act, 2000"
+  ],
+  "date_limits_for_sources": "2010-2025",
+  "search_keywords_used": [
+    "employment agreement",
+    "vendor contract",
+    "compliance",
+    "IT Act"
+  ],
+  "exclusions_applied": [
+    "non-authoritative blogs",
+    "paywalled sources not accessed"
+  ],
+  "defaults_used": {
+    "jurisdiction_scope": "Pan-India",
+    "date_limits_for_sources": "2010-2025",
+    "exclusions": [
+      "non-authoritative blogs",
+      "paywalled sources not accessed"
+    ]
+  },
+  "notes": "This metadata file was generated to accompany the research artifact and contains the contextual defaults used by LegalConsultant during sourcing."
+}

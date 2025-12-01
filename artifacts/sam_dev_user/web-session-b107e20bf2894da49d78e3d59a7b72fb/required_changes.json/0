@@ -1,0 +1,87 @@
+{
+  "artifact": "omninuera_ai_intern_offer.md",
+  "version": "latest",
+  "required_changes": [
+    {
+      "id": "C1",
+      "title": "Clarify nature of engagement and training objectives",
+      "priority": "High",
+      "action": "Replace generic position wording with detailed 'Nature of Engagement' clause describing educational objectives, mentor, evaluation, fixed term (3 months), and limit on hours.",
+      "statutory_basis": ["Minimum Wages Act, 1948", "Karnataka Shops & Establishments Act"],
+      "risk_if_not_done": "High (misclassification and regulatory exposure)"
+    },
+    {
+      "id": "C2",
+      "title": "Stipend, tax & statutory compliance clause",
+      "priority": "High",
+      "action": "Add explicit stipend clause addressing TDS withholding, PAN & documentation, and a statutory compliance reserve (company may adjust if authorities deem intern an employee).",
+      "statutory_basis": ["Income Tax Act, 1961 (Section 192)"],
+      "risk_if_not_done": "High (tax and wage liability)"
+    },
+    {
+      "id": "C3",
+      "title": "IP assignment (separate signed annex)",
+      "priority": "High",
+      "action": "Add strong IP Assignment clause in offer and obtain separate signed IP assignment document complying with Copyright Act requirements (written, signed, specifying rights).",
+      "statutory_basis": ["Copyright Act, 1957 (Section 19)","Patents Act, 1970"],
+      "risk_if_not_done": "Medium (ownership disputes)"
+    },
+    {
+      "id": "C4",
+      "title": "Confidentiality clause with reasonable duration and carve-outs",
+      "priority": "High",
+      "action": "Insert enforceable confidentiality clause (2-year post-term; trade secrets indefinite while secret; carve-outs for public/independently-developed/disclosure by law).",
+      "statutory_basis": ["Indian Contract Act (restraints of trade principles)"],
+      "risk_if_not_done": "Medium (loss of proprietary protection)"
+    },
+    {
+      "id": "C5",
+      "title": "Termination and final payment clause",
+      "priority": "High",
+      "action": "Add termination notice periods, immediate termination for cause, final settlement timeline (e.g., 14 days) and lawful deduction language.",
+      "statutory_basis": ["Payment of Wages Act, 1936","Shops & Establishments rules"],
+      "risk_if_not_done": "Medium"
+    },
+    {
+      "id": "C6",
+      "title": "Background check and data processing consent",
+      "priority": "Medium",
+      "action": "Add explicit consent and data processing clauses and checklist; implement retention & security measures.",
+      "statutory_basis": ["IT Act 2000; SPDI Rules 2011"],
+      "risk_if_not_done": "Low to Medium"
+    },
+    {
+      "id": "C7",
+      "title": "Insurance & welfare measures",
+      "priority": "Medium",
+      "action": "Provide personal accident insurance and basic welfare orientation clause in offer.",
+      "statutory_basis": ["Karnataka Shops & Establishments welfare guidance"],
+      "risk_if_not_done": "Low (reputational and safety exposure)"
+    },
+    {
+      "id": "C8",
+      "title": "Jurisdiction clause",
+      "priority": "Low",
+      "action": "Add governing law and forum selection (Bengaluru courts) with fall-back for interim relief elsewhere.",
+      "statutory_basis": ["Civil Procedure Code / Contract law principles"],
+      "risk_if_not_done": "Low"
+    },
+    {
+      "id": "C9",
+      "title": "Minimum wage check & pro‑rata calculation",
+      "priority": "High",
+      "action": "Obtain current Karnataka Minimum Wages notification for the relevant occupation category and compute pro‑rata monthly/hourly minimum; if stipend falls below, adjust or document educational nature.",
+      "statutory_basis": ["Minimum Wages Act, 1948; Karnataka notifications"],
+      "risk_if_not_done": "High (back wages and penalties)"
+    },
+    {
+      "id": "C10",
+      "title": "EPF/ESI coverage assessment",
+      "priority": "Medium",
+      "action": "Assess establishment employee counts, wage thresholds and determine if EPF/ESI registration/contributions required; if so, register and remit contributions or seek guidance.",
+      "statutory_basis": ["EPF Act, 1952; ESI Act, 1948"],
+      "risk_if_not_done": "Medium to High"
+    }
+  ],
+  "notes": "This JSON is a prioritized action plan. For numerical thresholds (minimum wages, EPF/ESI wage limits), obtain the latest notifications before making numeric changes."
+}

@@ -1,4 +1,10 @@
 shared_config:
+  - mesh_config:
+      mesh_prefix: "organization"
+      discovery_prefix: "organization/discovery"
+      agent_prefix: "organization/agents"
+      gateway_prefix: "organization/gateway"
+
   - broker_connection: &broker_connection
       dev_mode: ${SOLACE_DEV_MODE, false}
       broker_url: ${SOLACE_BROKER_URL, ws://localhost:8008}
@@ -102,7 +108,7 @@ shared_config:
     # Default artifact service configuration
     artifact_service: &default_artifact_service
       type: "filesystem"
-      base_path: "./"
+      base_path: "/home/sathwik/Organization-Orchestrator/artifacts"
       artifact_scope: namespace
     
     # Default data tools configuration

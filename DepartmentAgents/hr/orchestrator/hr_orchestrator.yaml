@@ -1,0 +1,81 @@
+# HR Orchestrator
+
+log:
+  stdout_log_level: INFO
+  log_file_level: INFO
+  log_file: hr-orchestrator.log
+
+!include ../../../configs/shared_config.yaml
+
+apps:
+  - name: hr-orchestrator
+    app_base_path: .
+    app_module: solace_agent_mesh.agent.sac.app
+    broker:
+      <<: *broker_connection
+
+    app_config:
+      namespace: ${NAMESPACE}
+      agent_name: "HROrchestrator"
+      display_name: "HROrchestrator"
+      model: *planning_model
+      supports_streaming: true
+
+      instruction: |
+        You are the HR Orchestrator responsible for handling:
+        - HR document creation (offer letters, contracts, policy drafts)
+        - Employee-related workflows
+        - Handing off legal-compliance tasks to the LegalOrchestrator
+
+        Workflow Rules:
+        1. If the task requires drafting an HR document, call HRDocumentDrafter.
+        2. Accept returned legal feedback and finalize the document flow.
+        3. Always return the final PDF document and any essential artifacts.
+
+      inject_system_purpose: true
+      inject_response_format: true
+      inject_user_profile: true
+
+      session_service:
+        type: "sql"
+        database_url: "sqlite:///hr_orchestrator.db"
+        default_behavior: "PERSISTENT"
+
+      artifact_service: *default_artifact_service
+      artifact_handling_mode: "reference"
+
+      enable_embed_resolution: true
+      enable_artifact_content_instruction: true
+
+      agent_discovery:
+        enabled: true
+
+      inter_agent_communication:
+        allow_list:
+          - "HRDocumentDrafter"
+          - "OrganizationOrchestrator"
+
+        request_timeout_seconds: 600
+
+      agent_card:
+        description: "Handles HR document drafting and coordinates with Legal for compliance."
+        defaultInputModes: [text, file]
+        defaultOutputModes: [text, file]
+        skills:
+          - id: hr_task_routing
+            name: HR Task Routing
+            description: Routes HR tasks to drafter or legal teams.
+          - id: cross_department_coordination
+            name: Inter-Department Coordination
+            description: Coordinates HR workflows with Legal.
+
+      agent_card_publishing:
+        interval_seconds: 10
+
+      tools:
+        - tool_type: builtin-group
+          group_name: "data_analysis"
+        - tool_type: builtin-group
+          group_name: "document_generation"
+        - tool_type: builtin-group
+          group_name: "artifact_management"

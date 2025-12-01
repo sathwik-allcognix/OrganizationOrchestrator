@@ -1,0 +1,54 @@
+# Notes for Legal — AI Intern Offer (summary points needing review)
+
+Please review the attached draft AI Intern offer and advise on the following items:
+
+1. IP Assignment
+   - Confirm the strength and scope of the IP assignment clause for an intern; advise on any required language to ensure assignment of inventions, code, models, datasets, and derivative works created during the internship.
+   - Recommend whether any carve-outs are needed for pre-existing IP or for academic projects.
+
+2. Confidentiality / NDA
+   - Confirm enforceability of NDA obligations for interns in India and suggest any additional wording or separate NDA requirements.
+
+3. Stipend Classification
+   - Confirm whether classifying the payment as a "stipend" of INR 10,000/month is appropriate versus characterizing as remuneration, contractor fees, or salary for statutory purposes.
+   - Advise whether TDS (Tax Deducted at Source) applies, and recommended withholding language.
+
+4. Applicability of Indian Labour Laws and Statutory Benefits
+   - Confirm applicability (or exclusion) of EPF/ESI, gratuity, minimum wage rules, and other statutory benefits to fixed-term interns paid stipends.
+   - Advise on any mandatory registrations or filings for interns.
+
+5. Notice / Termination and Proration
+   - Review the proposed notice period ([one week]) and confirm whether stipend proration is compliant with applicable laws.
+   - Recommend alternative notice language if required.
+
+6. Background Checks and Privacy
+   - Confirm permissible scope of background checks and necessary consent language.
+   - Flag any privacy compliance requirements for collecting and storing personal data (including retention and deletion).
+
+7. Data Protection & Remote Work
+   - Review remote work data security obligations and recommend specific clauses to protect company data, particularly for machine learning datasets and model access.
+   - Confirm whether cross-border data transfer language is required if systems or cloud services are hosted outside India.
+
+8. Tax Withholding / TDS
+   - Confirm whether the stipend is subject to TDS and what obligations the company has to withhold and report.
+
+9. Contract Labeling and Legal Form
+   - Confirm whether the document should be titled 'Fixed-Term Internship Agreement' or 'Offer Letter' to meet legal standards.
+   - Advise on any required specific wording under Indian law for fixed-term internships.
+
+10. NDAs and Enforceability
+    - Confirm enforceability of post-internship confidentiality and non-disclosure obligations for interns.
+    - Advise on whether additional consideration is needed to support post-termination restrictions, if any.
+
+11. Any Unusual Clauses
+    - Review termination for cause language, IP assignment timing (e.g., upon creation vs. upon disclosure), and the scope of "Work Product."
+    - Advise if the clause requiring signing additional documents (e.g., IP assignment forms) should be limited or altered.
+
+Requested outputs from Legal:
+- Suggested revised clauses or language for IP assignment and confidentiality suitable for interns in India.
+- Guidance on stipend classification, TDS obligations, and statutory compliance (EPF/ESI).
+- Confirmation of appropriate notice/termination language and proration mechanics.
+- Advice on labeling the document and whether any additional agreement (e.g., fixed-term internship agreement) is recommended.
+- Any mandatory insertion or removal of clauses to reduce legal risk.
+
+Please mark up the draft or provide redlined language where changes are required. Thank you.

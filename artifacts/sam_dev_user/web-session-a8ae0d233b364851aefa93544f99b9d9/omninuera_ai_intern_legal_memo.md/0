@@ -1,0 +1,110 @@
+# Legal Memo — Omninuera AI Intern (3 months, stipend INR 10,000/month, Bengaluru)
+
+Prepared by: LegalAdvisor  
+Date: [today]
+
+Purpose
+- To summarize legal-compliance findings for a 3‑month stipend-based AI Internship (INR 10,000/month) to be performed remotely from Bengaluru; to identify mandatory statutory obligations and practical risks (EPF, ESI, Professional Tax, TDS, payroll/registering); and to recommend precise contractual language and operational steps.
+
+Executive summary (short)
+- The internship should be clearly documented as a fixed‑term training placement (not employment), with learning objectives and limited duties. Doing so reduces but does not eliminate the risk of statutory reclassification. Key documents (proof of student status, learning plan, periodic assessments) should be kept.
+- EPF/ESI applicability depends on facts: if the intern is treated as an employee and the establishment is covered by EPF/ESI, contributions may be required. If the intern is a bona fide student/trainee receiving a token training allowance off‑payroll, EPF/ESI generally will not apply in practice.
+- Professional tax (Karnataka) may apply if the intern is treated as an employee and the stipend is within the taxable brackets; check latest Karnataka notifications.
+- TDS: if stipend is salary, employer must withhold under Section 192; if not salary and intern’s total income is below the basic exemption, no TDS may be required — collect PAN and tax declarations to determine.
+- IP, confidentiality and background verification clauses should be strengthened with precise assignment wording and explicit consent.
+
+Key statutory references (authoritative starting points)
+- Employees’ Provident Funds & Miscellaneous Provisions Act, 1952 (EPF Act) and Employees’ Provident Fund Scheme, 1952 — definitions of “employee” and “wages” (see Act and Scheme provisions; consult EPFO circulars on trainees/interns).
+- Employees’ State Insurance Act, 1948 (ESI Act) — definitions of “employee” and “wages”; check current ESIC wage ceiling (historically increased to ₹21,000, confirm latest notification).
+- Karnataka Tax on Professions, Trades, Callings and Employments Act, 1976 — professional tax rules and slab notifications (state finance department circulars).
+- Income‑tax Act, 1961 — Section 192 (TDS on salary), Section 206AA (PAN), and related TDS provisions.
+- Apprentices Act, 1961 — applicable if the engagement is a formal apprenticeship.
+- Copyright Act, 1957 (moral rights — Section 57), Patents Act, 1970 — IP assignment considerations.
+- Information Technology Act, 2000 and the SPDI Rules, 2011 — data processing and security obligations.
+
+Answers to the specific questions requested
+
+1) Does the wording appropriately distinguish this as an internship (not employment)? If not, recommend precise language.
+- Current draft states “internship” and “not regular employment,” but lacks training objectives, explicit non‑employee clauses, and documentation obligations. Courts/authorities apply a “substance over form” test (control, remuneration, integration in core business, continuity).  
+- Recommended exact text to add (copy‑paste):  
+  “This letter confirms your engagement as an AI Intern (remote, Bengaluru) with Omninuera for a fixed period of three (3) months commencing [start date] and ending [end date]. This engagement is strictly a learning/training internship. You will be paid a stipend of INR 10,000 (ten thousand) per month as a training allowance. This Agreement does not create an employer–employee relationship between you and the Company. You will not be eligible for employee benefits (Provident Fund, ESI, gratuity, leave, etc.) unless otherwise required by law. The Company reserves the right to determine statutory applicability; if any statutory body requires registration or contributions, the Company will comply in accordance with law and notify you of any changes.”
+
+2) Does a 3-month stipend of INR 10,000/month trigger obligations for EPF, ESI, or other labor statutes?
+- EPF: Not automatically. EPF applicability requires the establishment to be covered under the EPF Act (commonly establishments with 20+ employees are covered) and the individual to be an “employee” earning “wages” under EPF rules. Short-term training stipends to bona fide students/trainees, not treated as salary and not on payroll, are commonly not treated as wages by EPFO in practice. If intern is on payroll or company is covered and regards the stipend as salary, EPF contributions may be required. (See: EPF Act, EPF Scheme — definitions of wages/basic wages; EPFO circulars on trainees.)
+- ESI: Applicability depends on whether the establishment is covered under ESI and whether the person is an “employee” whose wages fall below the statutory ceiling (confirm current ceiling — historically ₹21,000/month). If intern is not an employee (training allowance), ESI typically does not apply; if treated as employee, ESI contributions would apply if wages ≤ notified ceiling. (See: Employees’ State Insurance Act, 1948 and ESIC notifications.)
+- Other labour statutes: Apprentices Act applies if the person is an apprentice under a formal apprenticeship program (registration required and stipend minima apply). Shops & Establishments Act (Karnataka) could apply if there is an employer–employee relationship, and state statutes may impose other obligations (attendance registers, etc.).
+- Practical conclusion: With INR 10,000/month for 3 months, EPF/ESI are unlikely if (A) intern is a bona fide student/trainee, (B) not on payroll, and (C) the company documents the training nature. If any of A‑C is not met, contributions may be required.
+
+3) What TDS or other tax withholding is required for stipend payments at this amount? Any required paperwork from the intern?
+- Taxability: Depends on characterization. If stipend is remuneration under employer–employee relationship, taxable as salary (Section 15 and follow‑ons) and TDS under Section 192 applies. If stipend is a training allowance not constituting salary, taxability depends on the intern’s total income — if annual income is below basic exemption, tax is nil. Employer should collect PAN (Section 139A/206AA), and accept Form 15G/15H where applicable. If the employer deducts TDS (salary/non‑salary), the relevant certificate (Form 16/Form 16A) must be issued.
+- Practical steps: collect PAN, bank details, and a signed declaration of other income/expected annual income. If intern has other income making total income taxable, compute annualized tax and deduct accordingly.
+
+4) Is the IP assignment clause enforceable for interns in India as drafted? If adjustments recommended, provide wording.
+- A clear written assignment with an agreement to execute documents is enforceable. Consideration is a contractual requirement, but where the intern receives a stipend and training, courts typically accept assignment supported by the contract. Moral rights under Copyright Act (Section 57) cannot be fully extinguished, but the intern may contractually agree to practical waivers or not assert moral rights to the extent permitted.
+- Recommended exact wording (copy‑paste provided in the attached redline): (See "Intellectual Property and Moral Rights" clause in the redline file.)
+
+5) Any specific consent language required for background verification and handling personal data under Indian privacy laws?
+- Yes. Include an explicit, informed consent clause specifying: purpose (recruitment/background checks), types of checks (education, employment, criminal), name of third‑party verifier(s), retention period, data transfer (if any), and the right to withdraw consent (subject to constraints). Reference IT Act/SPDI rules as legal background. Use the sample consent included in the redlines.
+
+6) Any Karnataka (Bengaluru) specific compliance requirements for remote workers or interns the Company should be aware of?
+- No special municipal statute specifically tied to remote interns beyond normal state obligations. Key Karnataka considerations:
+  - Professional Tax: Karnataka levies professional tax — employer should determine whether to withhold professional tax on stipend if intern is an employee/resident of Karnataka (check latest slabs and notifications).
+  - Shops & Establishments registration: may apply if physical workplace/establishment exists in Karnataka; remote-only interns working from home are typically not directly triggering additional municipal registration, but employer obligations remain for employees working from Karnataka.
+- Practical: collect proof of Bengaluru residence if location-based compliance is asserted.
+
+7) Any mandatory notice periods or constraints on termination for short-term interns under law or best practice?
+- No specific mandatory statutory notice periods for short-term interns who are not employees. Best practice: provide short notice (e.g., 7 days) and allow immediate termination for cause. If treated as employee, statutory notice provisions and procedural requirements may apply under applicable state law and Industrial Disputes Act for longer engagements.
+
+Recommended replacement clauses (exact text — copy/paste ready)
+- Internship classification and stipend: (see redline artifact; identical text repeated here)
+"This letter confirms your engagement as an AI Intern (remote, Bengaluru) with Omninuera for a fixed period of three (3) months commencing [start date] and ending [end date]. This engagement is strictly a learning/training internship. You will be paid a stipend of INR 10,000 (ten thousand) per month as a training allowance. This Agreement does not create an employer–employee relationship between you and the Company. You will not be eligible for employee benefits (Provident Fund, ESI, gratuity, leave, etc.) unless otherwise required by law. The Company reserves the right to determine statutory applicability; if any statutory body requires registration or contributions, the Company will comply in accordance with law and notify you of any changes."
+
+- Stipend / Tax withholding:
+"Stipend and Tax: The stipend is a training allowance and may be taxable in your hands under the Income‑tax Act, 1961. The Company will withhold tax at source as required by law. Please furnish PAN and any declarations (e.g., Form 15G/15H) to enable proper withholding. The Company will issue applicable tax certificates (Form 16/Form 16A) in respect of any tax deducted."
+
+- IP assignment (see redline for full clause).
+
+- Background verification / data consent (see redline).
+
+- Termination:
+"Termination: This Internship may be terminated by either party by giving seven (7) calendar days’ written notice to the other party. The Company may terminate this Internship with immediate effect for cause (including but not limited to misconduct, breach of confidentiality, or falsification of credentials). On termination you must return all Company property and confidential information. Termination of the Internship ends the stipend obligation, except for any stipend accrued but unpaid up to the date of termination."
+
+- Governing law (Bengaluru):
+"This Agreement shall be governed by and construed in accordance with the laws of India. The parties irrevocably submit to the exclusive jurisdiction of the courts at Bengaluru (Karnataka) for any dispute arising out of or in connection with this Agreement."
+
+Mandatory HR operations / documents to collect before issuing offer
+- PAN card (mandatory), bank details, Aadhaar/photo‑ID.
+- Proof of Bengaluru residence.
+- Proof of student status/enrolment or apprenticeship details (if relied upon).
+- Signed background verification consent.
+- Signed Confidentiality & IP Assignment (integrated into offer acceptance).
+- Signed declaration regarding other employment / expected annual income (for TDS purposes).
+
+Risks and mitigation (concise)
+- Reclassification as employee: mitigate by documenting training nature, keeping intern off payroll where practical, limiting duties, time and duration, and maintaining learning plan.
+- Statutory contributions if misclassified: if company has ≥20 employees or treats intern as employee, be prepared to register for EPF/ESI/professional tax and pay retroactive contributions if challenged.
+- Tax withholding errors: collect PAN and declarations; if unsure, withhold conservatively or consult tax adviser.
+- IP and moral rights disputes: use clear written assignments and require post‑termination cooperation.
+
+Follow-up questions (required to finalize definitive guidance)
+1. Total company headcount (employees on payroll). Is headcount ≥20?
+2. Will the intern be on‑payroll (subject to payroll taxes/deductions) or off‑payroll as a training allowance?
+3. Is the intern currently a student enrolled with an educational institute and is the internship part of curriculum/apprenticeship?
+4. Will any equipment be provided or special reimbursements beyond pre‑approved business expenses?
+5. Does the Company have EPF/ESI registrations for other employees (yes/no)?
+
+Conclusion and next steps
+- If you confirm the intern will be off‑payroll and that the intern is a student with supporting documentation, proceed with the revised offer language in the redline, collect required documents, and maintain training records. If the intern will be on payroll or the company has ≥20 employees, engage payroll and compliance teams to register and comply with EPF/ESI/professional tax and ensure TDS is assessed and deducted as needed.
+
+Prepared by:
+LegalAdvisor
+
+References (statute names for further lookup)
+- Employees’ Provident Funds & Miscellaneous Provisions Act, 1952; Employees’ Provident Fund Scheme, 1952.
+- Employees’ State Insurance Act, 1948 (and ESIC notifications).
+- Karnataka Tax on Professions, Trades, Callings and Employments Act, 1976 (state notifications for slabs).
+- Income‑tax Act, 1961 (Section 192; Section 206AA).
+- Apprentices Act, 1961.
+- Copyright Act, 1957 (Section 57, moral rights).
+- Information Technology Act, 2000; SPDI Rules, 2011.
+

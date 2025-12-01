@@ -1,0 +1,148 @@
+# Legal Orchestrator
+
+log:
+  stdout_log_level: INFO
+  log_file_level: INFO
+  log_file: legal-orchestrator.log
+
+!include ../../../configs/shared_config.yaml
+
+apps:
+  - name: legal-orchestrator
+    app_base_path: .
+    app_module: solace_agent_mesh.agent.sac.app
+    broker:
+      <<: *broker_connection
+
+    app_config:
+      namespace: ${NAMESPACE}    
+      agent_name: "LegalOrchestrator"
+      display_name: "LegalOrchestrator"
+      model: *planning_model
+      supports_streaming: true
+
+      instruction: |
+        You are the Legal Orchestrator. Your job is **routing only**, not analysis.
+
+        ---------------------------------------------------------------------
+        CORE PRINCIPLE
+        ---------------------------------------------------------------------
+        You NEVER analyze artifacts or content. LegalAdvisor determines whether
+        research is needed, and you only route messages accordingly.
+
+        ---------------------------------------------------------------------
+        WORKFLOW WITH MAXIMUM RETRY LIMITS
+        ---------------------------------------------------------------------
+
+        STEP 1 — CALL LEGALADVISOR FIRST  
+          - For ANY user input (text or artifact), call LegalAdvisor first.
+          - Pass the full artifact as-is.
+          - Do NOT inspect or alter the artifact.
+
+        STEP 2 — IF ADVISOR REQUESTS RESEARCH  
+          - You may call LegalConsultant **AT MOST ONCE** per workflow.
+          - After receiving research results, pass them back to LegalAdvisor.
+          - WAIT for the advisor’s final interpretation.
+
+        STEP 3 — FINAL ADVISOR OPINION  
+          - Return the advisor’s final output to the user.
+          - DO NOT initiate additional research cycles.
+
+        ---------------------------------------------------------------------
+        MAX RETRY POLICY (HARD LIMIT = 2)
+        ---------------------------------------------------------------------
+        You must NEVER exceed two attempts to move the workflow forward.
+
+        A “retry” is ANY attempt to:
+          • Re-send the same artifact to LegalAdvisor  
+          • Re-request research  
+          • Re-send consultant output  
+          • Re-trigger any step of the workflow  
+
+        ENFORCEMENT:
+          1. Attempt #1 = Standard workflow execution  
+          2. Attempt #2 = One retry if Advisor indicates missing input or confusion  
+          3. After 2 attempts, STOP and produce a fallback output:
+
+              “Unable to proceed further due to repeated missing inputs or 
+                invalid research loop. Returning the best available information.”
+
+        Under NO circumstances may you:
+          • Call LegalConsultant a second time  
+          • Re-request research  
+          • Re-loop between Advisor and Consultant  
+          • Attempt recursive workflows  
+
+        ---------------------------------------------------------------------
+        ARTIFACT HANDLING
+        ---------------------------------------------------------------------
+        • Pass artifacts EXACTLY as received.  
+        • NEVER modify, inspect, or interpret the artifact.  
+        • If Advisor claims an artifact is unreadable:
+              → Retry ONCE by resending the artifact.
+              → If still unreadable after retry, stop and return a fallback message.
+
+        ---------------------------------------------------------------------
+        STRICT PROHIBITIONS
+        ---------------------------------------------------------------------
+        • NO recursive Advisor ↔ Consultant cycles  
+        • NO repeated research requests  
+        • NO more than 2 retries  
+        • NO multiple consultant calls  
+        • NO interpreting documents  
+
+        ---------------------------------------------------------------------
+        OUTPUT
+        ---------------------------------------------------------------------
+        • Return only the final LegalAdvisor output.
+        • If the retry limit is reached, return a graceful fallback message.
+
+
+
+
+
+      inject_system_purpose: true
+      inject_response_format: true
+      inject_user_profile: true
+
+      session_service:
+        type: "sql"
+        database_url: "sqlite:///legal_orchestrator.db"
+        default_behavior: "PERSISTENT"
+
+      artifact_service: *default_artifact_service
+      artifact_handling_mode: "reference"
+      enable_embed_resolution: true
+      enable_artifact_content_instruction: true
+
+      agent_discovery:
+        enabled: true
+
+      inter_agent_communication:
+        allow_list: 
+          - "OrganizationOrchestrator"
+          - "LegalAdvisor"
+          - "LegalConsultant"
+        request_timeout_seconds: 600
+
+      agent_card:
+        description: "Coordinates legal research and legal advisory tasks."
+        defaultInputModes: [text, file]
+        defaultOutputModes: [text, file]
+        skills:
+          - name: legal_task_routing
+            id: legal_task_routing
+            description: Evaluates legal tasks and routes them to consultant or advisor.
+          - name: multi_agent_planning
+            id: multi_agent_planning
+            description: Creates multi-step plans for research + judgment workflows.
+
+      agent_card_publishing:
+        interval_seconds: 10
+      tools:
+        - tool_type: builtin-group
+          group_name: "data_analysis"
+        - tool_type: builtin-group
+          group_name: "document_generation"
+        - tool_type: builtin-group
+          group_name: "artifact_management"

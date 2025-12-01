@@ -1,0 +1,39 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.md",
+  "version": 0,
+  "schema_type": "research_metadata",
+  "created_by": "LegalAdvisor",
+  "created_at": "2025-12-01T14:28:06.855085",
+  "jurisdiction_scope": "Pan-India",
+  "applicable_laws": [
+    "Indian Contract Act, 1872",
+    "Industrial Disputes Act, 1947",
+    "Information Technology Act, 2000",
+    "Shops and Establishments Acts (state level) - as applicable",
+    "Payment of Wages Act, 1936"
+  ],
+  "date_limits_for_sources": "2010-2025",
+  "search_keywords_used": [
+    "employment agreement",
+    "vendor contract",
+    "service agreement",
+    "compliance",
+    "IT Act",
+    "data protection India",
+    "labor law India",
+    "termination clause"
+  ],
+  "exclusions_applied": [
+    "non-authoritative blogs",
+    "paywalled sources not accessed",
+    "social media posts and forum threads",
+    "duplicate news articles"
+  ],
+  "source_urls": [],
+  "tags": [
+    "legal",
+    "research",
+    "raw_sources"
+  ],
+  "notes": "Created as baseline version 0 metadata because original v0 metadata was not found or was unreadable. These defaults are reasonable starting points intended to support downstream legal review and further research. Update fields where more precise jurisdictional or source constraints are known."
+}

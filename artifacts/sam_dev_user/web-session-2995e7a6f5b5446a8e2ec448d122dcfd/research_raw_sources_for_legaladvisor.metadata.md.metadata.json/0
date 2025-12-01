@@ -1,0 +1,12 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.metadata.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 1191,
+  "timestamp_utc": 1764597259.0,
+  "description": "Companion metadata for research_raw_sources_for_legaladvisor.md - contextual defaults used by LegalConsultant",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.md",
+  "metadata_version": 0,
+  "created_by": "LegalAdvisor",
+  "created_at": "2025-12-01T13:47:56.103720",
+  "provenance": {
+    "original_metadata_found": false,
+    "source_of_defaults": "LegalConsultant contextual_defaults from existing artifact version 1",
+    "derived_from_artifact": "research_raw_sources_for_legaladvisor.md",
+    "derived_from_artifact_version": 1,
+    "notes": "Original v0 metadata was not found or was unreadable. This v0 was created using reasonable defaults and the contextual_defaults present in version 1."
+  },
+  "jurisdiction_scope": "Pan-India",
+  "applicable_laws": [
+    "Indian Contract Act, 1872",
+    "Industrial Disputes Act, 1947",
+    "Information Technology Act, 2000"
+  ],
+  "date_limits_for_sources": "2010-2025",
+  "search_keywords_used": [
+    "employment agreement",
+    "vendor contract",
+    "compliance",
+    "IT Act"
+  ],
+  "exclusions_applied": [
+    "non-authoritative blogs",
+    "paywalled sources not accessed"
+  ],
+  "source_urls": [],
+  "tags": [
+    "legal",
+    "research",
+    "raw_sources"
+  ],
+  "schema_type": "research_metadata",
+  "schema_note": "Minimal v0 metadata created to allow downstream legal research workflows to proceed. Update v0 if more precise jurisdictional or source constraints are required."
+}

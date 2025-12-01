@@ -1,0 +1,12 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.md.metadata.json",
+  "mime_type": "application/json",
+  "size_bytes": 663,
+  "timestamp_utc": 1764598972.0,
+  "description": "Metadata file for research_raw_sources_for_legaladvisor.md version 0 (resend, unchanged).",
+  "schema": {
+    "type": "application/json",
+    "inferred": false,
+    "error": "JSON structure inference failed: Expecting value: line 1 column 1 (char 0)"
+  }
+}

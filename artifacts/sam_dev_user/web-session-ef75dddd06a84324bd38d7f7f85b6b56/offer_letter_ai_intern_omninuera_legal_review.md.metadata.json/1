@@ -1,0 +1,12 @@
+{
+  "filename": "offer_letter_ai_intern_omninuera_legal_review.md",
+  "mime_type": "text/plain",
+  "size_bytes": 4908,
+  "timestamp_utc": 1764581690.0,
+  "source_directive": "\u00abartifact_content:offer_letter_ai_intern_omninuera_draft.md >>> format:text\u00bb",
+  "schema": {
+    "type": "text/plain",
+    "inferred": false,
+    "error": null
+  }
+}

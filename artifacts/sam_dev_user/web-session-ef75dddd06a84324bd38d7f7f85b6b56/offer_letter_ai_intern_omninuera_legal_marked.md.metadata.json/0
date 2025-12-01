@@ -1,0 +1,12 @@
+{
+  "filename": "offer_letter_ai_intern_omninuera_legal_marked.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 10230,
+  "timestamp_utc": 1764581998.0,
+  "description": "HR draft updated with legal clauses: DPDP background consent annexure, POSH clause, detailed tax/EPF/ESIC/TDS wording, strengthened IP/Confidentiality, Shops & Establishment note. Replace bracketed items with specific DPO/ICC/URLs. Use as the legal-approved version to send to candidate after final confirmations.",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

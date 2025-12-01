@@ -1,0 +1,212 @@
+# Legal Review — Omninuera AI Intern Offer Letter Draft
+Artifact: Omninuera_AI_Intern_Offer_Letter_Draft.md (latest) — included below for reference and followed by suggested edits and replacement clause language.
+
+---
+
+## Plan (review checklist)
+⬜ Review internship classification under Indian law.  
+⬜ Review IP assignment clause and recommend enforceable wording.  
+⬜ Review confidentiality clause (scope, duration, exceptions).  
+⬜ Review stipend wording to minimize employment misclassification risk.  
+⬜ Review termination clause and statutory protections.  
+⬜ Review background verification and data privacy/consent language.  
+⬜ Review governing law/jurisdiction clause.  
+⬜ Identify any additional mandatory clauses or compliance risks and recommend wording.  
+⬜ Produce marked-up draft and short summary.
+
+✅ All items completed in this artifact.
+
+---
+
+## 1) Original draft (unchanged) — full text for reference
+The original offer letter is included below exactly as in the supplied artifact.
+
+«artifact_content:Omninuera_AI_Intern_Offer_Letter_Draft.md >>> format:text»
+
+---
+
+## 2) Marked-up draft (suggested edits)
+Below are suggested edits grouped by issue area. I use Markdown editing conventions:
+- ~~strikethrough~~ indicates suggested deletion from the original draft.
+- **bold text** indicates suggested insertion.
+- Where a full replacement clause is recommended, the recommended clause is provided in a code block so HR can copy/paste.
+
+Note: I have not altered the original file. The recommended edits are reproduced here for HR to apply, if desired.
+
+### A. Internship classification / relationship to company
+Issue: Need explicit language establishing trainee/temporary, non-employment relationship while avoiding language that could be interpreted as disguising regular employment. Courts will look to substance (work performed, supervision, remuneration, hours) not just label.
+
+Suggested insertion (near the top, e.g., immediately after position/title paragraph):
+~~(no explicit clause in original)~~  
+**Suggested insertion (Internship Status):**
+```
+Internship Status. You will be engaged by Omninuera as an intern/trainee for a fixed-term training program and not as a regular employee. This internship is a temporary learning placement for the period set out in this letter and is intended primarily for your training and educational benefit. You will not be eligible for employee benefits, statutory social security contributions, or employment protections available to regular employees except as expressly provided in this letter or required by law. Nothing in this letter creates a contract of employment, master-servant relationship, or guarantees ongoing engagement beyond the Internship End Date.
+```
+
+Also recommend adding a short summary of duties and supervision to the letter (to show the internship is training-focused), e.g., "You will perform tasks under regular supervision and the primary purpose is learning; assigned tasks are consistent with training expectations."
+
+### B. IP assignment clause
+Issue: In India, IP assignment by interns can be enforceable if there is clear written assignment and adequate consideration. For interns, adding express consideration language, a prior-works carve-out, and an obligation to execute documents is important.
+
+If the current draft contains a short IP line, replace it with the following recommended clause:
+
+**Recommended IP clause (replace existing IP paragraph):**
+```
+Intellectual Property and Works Made During Internship.
+1. Definitions. "Company IP" means all inventions, discoveries, designs, works of authorship, software, databases, improvements, processes, developments, designs, documentation, know-how, discoveries, trade secrets and other intellectual property (whether or not patentable or registerable) that you solely or jointly create, conceive, reduce to practice or develop during the term of your internship and in the course of performing duties for Omninuera (collectively, "Internship Works").
+
+2. Assignment. In consideration of the opportunity to participate in the internship program, the stipend and other consideration provided under this letter, you hereby irrevocably assign and transfer to Omninuera and its successors and assigns all right, title and interest in and to the Internship Works, including all worldwide intellectual property rights and moral rights, to the maximum extent permitted by applicable law. You shall, at Omninuera's request and expense, promptly execute all documents and do all acts that Omninuera reasonably requires to perfect, register, maintain or enforce ownership of such rights.
+
+3. Prior Works. You represent that you have disclosed in writing to Omninuera, prior to commencement of the internship, any inventions, creations or materials you own or have rights to that you intend to use or incorporate in the Internship Works (the "Prior Works"). To the extent any Prior Works are used, those Prior Works shall remain your property and are exempt from this assignment, unless a separate written agreement is executed.
+
+4. Student Projects / Academic Collaborations. If any Internship Works arise from or are subject to academic institution rules or grant obligations, you will notify Omninuera before commencing work so the parties can agree in writing on ownership and license rights.
+```
+
+Notes:
+- Adding "in consideration of" language helps enforceability.
+- Require execution of further documents and include "Prior Works" carve-out and process.
+- Consider adding a short waiver of moral rights to the extent permitted under Indian law.
+
+### C. Confidentiality clause
+Issue: Scope, duration, and exceptions should be explicit. Confidentiality obligations for interns should survive termination. Include exceptions (public domain, prior knowledge, independently developed, compelled disclosures) and return/destruction obligations.
+
+**Recommended Confidentiality clause (replace/expand existing confidentiality wording):**
+```
+Confidentiality.
+1. Definition. "Confidential Information" means non-public information disclosed by Omninuera (or its clients/partners) relating to business, operations, products, services, customers, pricing, strategy, software, algorithms, models, data, trade secrets, technical or business information and any other information reasonably understood to be confidential.
+
+2. Obligations. You shall: (a) hold Confidential Information in strict confidence; (b) not use or disclose it except as necessary to perform your internship duties; and (c) take reasonable measures to protect it with at least the same degree of care that you use for your own confidential information.
+
+3. Exceptions. Confidential Information does not include information that: (a) is or becomes publicly available through no breach by you; (b) was in your lawful possession prior to disclosure and not subject to confidentiality obligations (subject to disclosure of such prior information at the start of the internship); (c) is lawfully received from a third party without breach; or (d) is independently developed by you without using Omninuera's Confidential Information.
+
+4. Return/Destruction. Upon termination or at Omninuera's request, you shall promptly return or permanently destroy (and certify destruction of) all Confidential Information and copies thereof, including material stored on personal devices, subject to any legal retention requirements.
+
+5. Survival. The confidentiality obligations in this clause shall survive termination of this letter for a period of **two (2) years** for ordinary Confidential Information and **indefinitely** for trade secrets (to the extent such information qualifies as a trade secret under applicable law).
+```
+
+If the current draft already contains a confidentiality clause, recommend augmenting it with the return/destruction and survival language and adding the exceptions paragraph.
+
+### D. Stipend wording & payments
+Issue: Calling the payment a "stipend" helps but courts look to amount, regularity, and work performed. Stipend should be described as a training allowance and the payment schedule should be stated. Clarify taxes and benefits treatment.
+
+**Suggested stipend wording / payment paragraph:**
+```
+Stipend and Taxes. You will be paid a monthly stipend of INR [amount] payable in arrears on the Company's usual payroll date each month, subject to applicable deductions required by law. The stipend is a training allowance provided in consideration of your participation in the internship program and is not a salary for purposes of employment benefits. You acknowledge and agree that you are responsible for any personal income tax or other taxes arising from the stipend; Omninuera may withhold taxes as required by applicable law.
+```
+
+Notes:
+- Use "stipend" and "training allowance" language.
+- State monthly schedule and that intern responsible for taxes.
+- If stipend is substantial and work looks like employment, HR should reassess classification and benefits like EPF/ESIC applicability.
+
+### E. Termination clause
+Issue: 1-week notice may be fine for internships but ensure right to terminate for cause is immediate; include clarity on notice by either party and on-for-cause termination. Flag statutory protections (uncommon for very short internships), wages on termination, and final payments.
+
+**Recommended termination clause:**
+```
+Termination.
+1. Either party may terminate this internship for any reason by providing one (1) week's prior written notice to the other party.
+
+2. Omninuera may terminate your internship without prior notice or payment in lieu where there is cause, including but not limited to gross misconduct, material breach of this letter, serious dishonesty, breach of confidentiality, violation of company policies, or conduct that may damage Omninuera's reputation.
+
+3. Upon termination, Omninuera will pay any unpaid stipend pro-rated to the last working day and will provide reasonable assistance to effect a proper handover of work and return of company property.
+```
+
+Notes:
+- Add clarity about pro-rata stipend payment.
+- For longer internships or where specific statutory protections apply, HR should confirm statutory notice requirements; for very short internships statutory notice, gratuity and other benefits generally do not apply (gratuity requires 5 years continuous service), but confirm with counsel.
+
+### F. Background verification and data protection / privacy
+Issue: Need explicit consent to collect/process personal data for background checks and specify retention, purpose limitation, and disposal. India does not yet have a fully mature DP law as of mid‑2024, but best practice is to reference applicable laws and data protection principles.
+
+**Recommended background verification & data privacy wording:**
+```
+Background Verification and Data Protection.
+1. Background Checks. Your offer is conditional upon satisfactory completion of identity, educational, employment and criminal background verification checks as may be required by Omninuera. By accepting this offer, you expressly consent to such checks and to Omninuera contacting former employers, educational institutions and other third parties for verification.
+
+2. Personal Data Processing. You consent to Omninuera collecting, storing and processing your personal data for recruitment, onboarding, background checks and related administrative purposes in accordance with applicable law. Omninuera will process such data only for specified purposes, store it securely, and retain it only for as long as necessary (typically no longer than [one (1) year] after completion/termination of the internship, unless retention is required or permitted under law or necessary for legitimate business purposes).
+
+3. Rights and Contact. If you have questions or want to request correction/deletion of your personal data, contact [data_protection@omninuera.example] (or the appropriate contact). Omninuera will comply with applicable legal obligations in relation to requests and disclosures.
+```
+
+Notes:
+- Replace retention period as appropriate; suggested default is 1 year unless regulatory reasons require longer retention.
+- Ensure background check processes conform to local law (consent, proportionality).
+
+### G. Governing law and jurisdiction
+Issue: Bengaluru, India is appropriate if the company operates there and wants Indian law to govern.
+
+**Suggested wording (replace existing if needed):**
+```
+Governing Law and Jurisdiction. This letter and any dispute arising out of or in connection with it shall be governed by the laws of India. The courts located in Bengaluru, Karnataka shall have exclusive jurisdiction to adjudicate any dispute arising out of this letter.
+```
+
+Optionally, if the company prefers arbitration, provide an arbitration clause; otherwise courts in Bengaluru are acceptable.
+
+### H. Other mandatory/important clauses and compliance risks
+- Taxes: Make clear intern is responsible for taxes; company may withhold as required.
+- Benefits exclusion: Add explicit clause stating no entitlement to employee benefits (PF, Gratuity, ESIC) unless required by law or separately agreed.
+- Working hours and attendance: Describe expected hours and clarify that regular full-time work expectations may increase misclassification risk — keep training focus and supervised learning.
+- Safety and workplace policies: Add a line referring to company policies (code of conduct, data security, workplace safety) which apply to interns.
+- Publication/academic credit: If interns may publish or use work in portfolios, clarify whether company consent required.
+- Non-compete / NDAs: Avoid broad post-internship non-competes. Use limited non-solicit/confidentiality protections instead.
+
+**Suggested benefits exclusion clause:**
+```
+No Employee Benefits. Except as expressly provided in this letter, you will not be entitled to employee benefits (including but not limited to medical insurance, gratuity, provident fund, paid leave or any retirement benefits) or statutory benefits applicable to employees, and this letter does not create an employment contract.
+```
+
+**Suggested taxes clause (if not already present):**
+```
+Taxes. You are responsible for determining and discharging your tax obligations in respect of the stipend. Omninuera may withhold taxes where required by applicable law.
+```
+
+---
+
+## 3) Short plain-text summary of legal issues and required changes (actionable checklist)
+
+1. Internship classification: Add an explicit "Internship Status" clause confirming trainee/temporary nature, supervised learning focus, no entitlement to employee benefits, and a short description of duties/supervision to show training emphasis.
+
+2. IP assignment: Replace current IP clause with a detailed assignment clause that:
+   - Assigns all Internship Works to Omninuera.
+   - States consideration ("in consideration of the stipend and training").
+   - Requires execution of further documents.
+   - Carves out and documents Prior Works.
+   - Addresses student/academic work where applicable.
+
+3. Confidentiality: Strengthen confidentiality clause to define Confidential Information, include exceptions, impose return/destruction obligations, and specify survival (suggest 2 years for ordinary info; indefinite for trade secrets).
+
+4. Stipend wording: Use "stipend" / "training allowance" language, specify monthly payment schedule, state intern responsible for taxes, and confirm stipend does not create entitlement to benefits. Ensure stipend amount and duties do not make arrangement look like employment.
+
+5. Termination: Clarify notice rights and immediate termination for cause; add pro-rata stipend payment and handover/return-of-property obligations. Check statutory notice requirements if internship becomes long-term.
+
+6. Background checks & data protection: Add explicit consent for background checks and processing of personal data, include retention period and contact for data requests, and ensure processes follow applicable privacy laws and best practices.
+
+7. Governing law: Confirmed — laws of India with exclusive jurisdiction of Bengaluru courts is acceptable. Add clear clause.
+
+8. Other compliance risks: state taxes/gratuity/benefits exclusion, avoid overbroad post-intern non-competes, add workplace policies reference. For stipends that effectively function as wages, HR should consider PF/ESIC obligations.
+
+Recommended next actions (HR):
+- Adopt the recommended replacement clauses into the offer letter and re-run legal review if material changes are made.
+- Ensure the stipend amount, hours of work and duties actually reflect a training-focused program to reduce misclassification risk.
+- If the internship will last longer than a few months or if multiple interns are doing productive work akin to employees, consult local counsel on PF/ESIC and other statutory obligations.
+- Have interns sign a short separate "Prior Works Disclosure" form at onboarding to capture pre-existing IP.
+- Ensure background check vendor procedures comply with privacy and data security requirements.
+
+---
+
+## 4) Practical drafting notes for HR
+- Use clear, short clauses rather than vague phrases to reduce interpretation risk.
+- Keep record of training materials, supervision logs and evaluations to evidence the internship's training nature.
+- Where the intern is a student, consider getting a confirmation/approval from the educational institution (if applicable).
+- Keep copies of consent for background checks and data-processing notices.
+
+---
+
+## 5) If you want, next options I can perform
+- Produce a version of the original offer letter with the suggested edits **applied inline** (i.e., a redlined markdown copy with ~~deletions~~ and **insertions** applied). (I will create a new artifact that modifies a copy of the original — the original file will not be changed.)
+- Draft a short standalone "Intern IP & Prior Works Disclosure" form for onboarding.
+- Draft a short data-processing consent form for background checks and retention.
+- Conduct a quick checklist to assess whether stipend amount/hours/duties create a misclassification risk (you must provide stipend amount, expected weekly hours, and a short list of duties).
+
+Please tell me which next step you prefer, or instruct HR to incorporate the recommended clauses and request a follow-up review.

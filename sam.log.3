@@ -1,0 +1,36 @@
+2025-12-01 13:05:22,111 | INFO  | MainThread | solace_ai_connector.solace_ai_connector | Received keyboard interrupt - stopping
+2025-12-01 13:05:22,117 | WARNING | MainThread | solace_ai_connector.main | Shutdown initiated due to KeyboardInterrupt.
+2025-12-01 13:05:22,117 | WARNING | MainThread | solace_ai_connector.main | Stopping Solace AI Connector
+2025-12-01 13:05:22,117 | INFO  | MainThread | solace_ai_connector.solace_ai_connector | Stopping Solace AI Event Connector
+2025-12-01 13:05:23,058 | INFO  | Thread-8 (run) | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  SamComponentBase run method finished.
+2025-12-01 13:05:23,060 | INFO  | MainThread | solace_ai_connector.solace_ai_connector | Cleaning up Solace AI Event Connector
+2025-12-01 13:05:23,060 | INFO  | MainThread | solace_ai_connector.flow.app | Cleaning up app: hr-orchestrator
+2025-12-01 13:05:23,060 | INFO  | MainThread | solace_ai_connector.flow.flow | Cleaning up flow: hr-orchestrator_implicit_flow
+2025-12-01 13:05:23,071 | ERROR | Thread-5 (run) | solace_ai_connector.common.messaging.solace_messaging | broker[hr-orchestrator_broker_input]: Error disconnecting
+Traceback (most recent call last):
+  File "/home/sathwik/miniconda/lib/python3.11/site-packages/solace_ai_connector/common/messaging/solace_messaging.py", line 460, in disconnect
+    self.messaging_service.disconnect()
+  File "/home/sathwik/miniconda/lib/python3.11/site-packages/solace/messaging/messaging_service.py", line 1328, in disconnect
+    self._session.session_cleanup()
+  File "/home/sathwik/miniconda/lib/python3.11/site-packages/solace/messaging/core/_solace_session.py", line 823, in session_cleanup
+    self.session_destroy()
+  File "/home/sathwik/miniconda/lib/python3.11/site-packages/solace/messaging/core/_solace_session.py", line 849, in session_destroy
+    raise exception
+solace.messaging.errors.pubsubplus_client_error.PubSubPlusCoreClientError: Unable to destroy session Failure code: -1
+Caller Description: SolaceApi->session_destroy. Error Info Sub code: [2]. Error: [Bad session pointer '0x4000ffe' in solClient_session_destroy]. Sub code: [SOLCLIENT_SUBCODE_PARAM_NULL_PTR]. Return code: [Fail]
+2025-12-01 13:05:23,073 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | Shutting down MultiSessionRequestResponseManager.
+2025-12-01 13:05:23,085 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | MultiSessionRequestResponseManager shut down complete.
+2025-12-01 13:05:23,085 | INFO  | MainThread | solace_agent_mesh.agent.sac.component | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Cleaning up A2A ADK Host Component.
+2025-12-01 13:05:23,086 | INFO  | MainThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Starting cleanup for SamComponentBase...
+2025-12-01 13:05:23,086 | INFO  | MainThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Requesting asyncio loop to stop...
+2025-12-01 13:05:23,086 | INFO  | MainThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Joining async operations thread (timeout 10s)...
+2025-12-01 13:05:23,087 | INFO  | <unnamed>_AsyncOpsThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Async operations loop finished in dedicated thread.
+2025-12-01 13:05:23,087 | INFO  | MainThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Closing asyncio event loop (if not already closed by its thread).
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | Shutting down MultiSessionRequestResponseManager.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | MultiSessionRequestResponseManager shut down complete.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_agent_mesh.common.sac.sam_component_base | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  SamComponentBase cleanup finished.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_agent_mesh.agent.sac.component | [solace_ai_connector.hr-orchestrator_implicit_flow.<unnamed>]  Component cleanup finished.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | Shutting down MultiSessionRequestResponseManager.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_ai_connector.flow.multi_session_request_response_manager | MultiSessionRequestResponseManager shut down complete.
+2025-12-01 13:05:23,088 | INFO  | MainThread | solace_ai_connector.solace_ai_connector | Cleanup completed
+2025-12-01 13:05:23,088 | WARNING | MainThread | solace_ai_connector.main | Solace AI Connector exited successfully!

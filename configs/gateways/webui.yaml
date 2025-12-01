@@ -32,7 +32,11 @@ apps:
       cors_allowed_origins: 
         - "http://localhost:3000" 
         - "http://127.0.0.1:3000"
-
+      agent_discovery:
+        enabled: true
+        cross_namespace: true
+        allowed_namespaces:
+          - "*"
       enable_embed_resolution: ${ENABLE_EMBED_RESOLUTION} # Enable late-stage resolution
       gateway_artifact_content_limit_bytes: ${GATEWAY_ARTIFACT_LIMIT_BYTES, 10000000} # Max size for late-stage embeds
       sse_max_queue_size: ${SSE_MAX_QUEUE_SIZE, 200} # Max size of SSE connection queues

@@ -1,0 +1,29 @@
+{
+  "filename": "research_raw_sources_for_legaladvisor.metadata.v0.json",
+  "mime_type": "application/json",
+  "size_bytes": 690,
+  "timestamp_utc": 1764597252.0,
+  "description": "Version 0 metadata created because original metadata was missing. Contains baseline jurisdiction, laws, date limits, search keywords, and exclusions.",
+  "schema": {
+    "type": "application/json",
+    "inferred": true,
+    "error": null,
+    "structure": {
+      "version": "int",
+      "note": "str",
+      "jurisdiction_scope": "str",
+      "applicable_laws": [
+        "str"
+      ],
+      "date_limits_for_sources": "str",
+      "search_keywords_used": [
+        "str"
+      ],
+      "exclusions_applied": [
+        "str"
+      ],
+      "created_by": "str",
+      "created_at": "str"
+    }
+  }
+}

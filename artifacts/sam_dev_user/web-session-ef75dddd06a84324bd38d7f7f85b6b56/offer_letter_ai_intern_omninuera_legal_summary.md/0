@@ -1,0 +1,173 @@
+Legal Review — Offer Letter (AI Intern) — Proposed Changes and Rationale
+Filename reviewed: offer_letter_ai_intern_omninuera_draft.md (HR draft)
+
+Summary instructions
+- Implement high-priority edits before issuing the offer: tax/PAN clause, background verification consent, EPF/ESI reservation, POSH clause.
+- Ensure operational practices match the contractual label (training focus, limited hours, mentor-led tasks).
+- Populate ICC contact and background verification vendor details before sending to candidate.
+
+Change log — precise edits (copy/paste directly into the offer)
+
+1) Insert / Replace: Tax / PAN / TDS clause (Stipend & Payment section)
+(a) Text to insert (replace current payment/tax sentence):
+"Payment schedule and taxes: The stipend will be paid monthly and disbursed within the first week of the following month. The stipend is a training/stipend allowance and is taxable in the Intern’s hands as per Indian tax laws. The Company will deduct taxes at source (TDS) as required by law. The Intern must promptly provide a valid PAN (Permanent Account Number) and any other documents reasonably required for tax withholding and reporting. If the Intern fails to provide PAN, the Company may withhold taxes at higher rates as prescribed by law."
+
+(b) Reason/legal basis:
+- Income‑tax Act, 1961 obligations for tax deduction at source (Section 192 for salary; other sections may apply depending on substance). PAN rules (Sections 206AA/206AB) impose higher withholding without PAN. Good practice and needed for accurate withholding.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Mandatory/Recommended. Collecting PAN and advising about TDS is necessary to comply with tax law and avoid higher withholding.
+
+2) Insert / Replace: EPF / ESI / Social security reservation (Internship Status section)
+(a) Text to insert:
+"Nature of engagement: This engagement is a fixed‑term training internship for learning purposes only and is not an appointment to employment. It does not create an employer–employee relationship and does not entitle the Intern to regular employee benefits (such as paid leave, insurance, provident fund, gratuity, or other statutory or contractual employee benefits), unless expressly provided in writing by Omninuera. The parties agree that the stipend is a training allowance. Notwithstanding the foregoing, if any statutory authority determines that the Intern qualifies as an 'employee' under any social security law (including the Employees' Provident Funds and Miscellaneous Provisions Act, 1952 or the Employees' State Insurance Act, 1948), the Company shall comply with such directions and may take remedial steps including making contributions or recovering amounts to the extent permitted by law."
+
+(b) Reason/legal basis:
+- EPF Act 1952 and ESI Act 1948 apply where a person is an 'employee' — authorities consider substance (control, regularity, integration). Including a reservation reduces risk and notifies candidate about possible recovery/retroactive obligations.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Recommended (but essential for risk mitigation and to preserve right to comply/adjust).
+
+3) Replace / Clarify: Confidentiality clause (add exclusions, return obligations, survival)
+(a) Text to replace:
+"Confidentiality: During the internship and thereafter, the Intern must maintain the confidentiality of Omninuera’s confidential and proprietary information and may not disclose such information to any third party except as authorised in writing by Omninuera or as required by law. 'Confidential Information' includes, but is not limited to, technical data, business plans, product roadmaps, customer information, source code, models, training data and other proprietary materials. Confidential Information does not include information that (i) is or becomes generally available to the public other than by breach of this agreement by the Intern; (ii) was in the Intern's lawful possession before receipt from the Company and not subject to a confidentiality obligation; or (iii) is independently developed by the Intern without use of the Company’s Confidential Information. On termination, the Intern shall promptly return or destroy all Company materials and copies containing Confidential Information. The obligations in this paragraph shall survive termination for a period of [2] years, except that trade secrets shall remain confidential for as long as they are trade secrets."
+
+(b) Reason/legal basis:
+- Confidentiality obligations are enforceable but must contain reasonable carve-outs and a mechanism for material return. Overbroad indefinite confidentiality may be challenged; include survival period for clarity.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Recommended to protect company and avoid overbreadth.
+
+4) Replace / Narrow: Intellectual Property assignment
+(a) Text to replace:
+"Intellectual Property: All inventions, discoveries, developments, designs, code, models, documentation and other work product (collectively, 'Internship Work Product' or 'IP') that the Intern solely or jointly creates during the course of the internship and which are directly related to or arise from the Intern’s work for the Company shall be the exclusive property of Omninuera. The Intern hereby assigns and agrees to assign to Omninuera all right, title and interest in such Internship Work Product and will execute, at the Company's expense, documents and do all acts reasonably necessary to vest title in Omninuera. Notwithstanding the foregoing, the Intern shall retain ownership of any pre-existing intellectual property or personal projects disclosed in writing to the Company prior to the commencement of the internship. The Intern also agrees to waive or assert no moral rights in favor of the Company to the extent permissible by law. This clause does not seek assignment of ideas or inventions developed entirely outside the scope of the internship and without use of the Company's Confidential Information or resources."
+
+(b) Reason/legal basis:
+- Assignment clauses should be limited to work product created in scope of internship, protect candidate's pre-existing IP, and include assistance clause to execute assignment. Avoid claiming all candidate IP outside scope to reduce enforceability risk.
+
+(c) Priority / mandatory:
+- Priority: Medium-High. Status: Recommended.
+
+5) Replace / Expand: Termination clause (final payment timeline; survival of IP/confidentiality)
+(a) Text to insert/replace:
+"Upon termination, the Company will pay any unpaid pro‑rated stipend within thirty (30) days of the Intern's last working day, subject to lawful deductions. The Intern’s confidentiality and IP obligations shall survive termination as described above. Examples of 'termination for cause' include gross misconduct, theft, fraud, conviction of an offense involving moral turpitude, or serious breach of Company policies."
+
+(b) Reason/legal basis:
+- Clarifies final payment timeline and survival obligations; helps avoid disputes on final pay.
+
+(c) Priority / mandatory:
+- Priority: Medium. Status: Recommended.
+
+6) Insert: Background verification express consent & retention (Background Verification section)
+(a) Text to insert:
+"Background verification and data processing consent: This offer is conditional on satisfactory background verification. By accepting this offer, the Intern expressly consents to the Company (and its authorised third-party vendor) collecting and processing the Intern's personal data for verification purposes, including identity, education, employment history, address, and, where necessary, criminal records. The Intern consents to such data being shared with authorised vendors and relevant authorities. Background verification data will be retained for the duration of the internship and up to 12 months thereafter for recordkeeping and compliance, unless otherwise required by law. The Intern may withdraw consent in writing; however, such withdrawal may prevent completion of onboarding."
+
+(b) Reason/legal basis:
+- Data protection obligations (IT Act/SPDI Rules and DPDP principles) require informed consent and purpose limitation for processing personal/sensitive data. Explicit consent needed for criminal records/biometrics.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Mandatory (consent is required under privacy frameworks and for vendor checks).
+
+7) Insert: POSH coverage and ICC contact (Compliance section)
+(a) Text to insert:
+"Sexual harassment and workplace policy: The Intern will be covered under the Company’s Sexual Harassment policy (as applicable under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013). The Intern may raise any complaint of sexual harassment with the Company’s Internal Complaints Committee (ICC) or the Local Complaints Committee as provided in the policy. The Company’s ICC contact details are: [ICC name, email, phone]."
+
+(b) Reason/legal basis:
+- POSH Act requires coverage of interns and constitution of ICC where required. Employers must display policies and ICC details.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Mandatory if the workplace has 10+ employees; recommended in all cases.
+
+8) Insert: Professional tax clause (Karnataka)
+(a) Text to insert:
+"Professional tax: If the Intern is treated as an employee for state law purposes or if any Karnataka professional tax applies to the stipend/remuneration, the Company reserves the right to deduct and remit such professional tax as required by law. The Intern agrees to cooperate with any registrations or documentation required for such compliance."
+
+(b) Reason/legal basis:
+- Karnataka Tax on Professions, Trades, Callings and Employments Act — employer obligations to deduct and remit for employees working in Karnataka.
+
+(c) Priority / mandatory:
+- Priority: Medium. Status: Recommended.
+
+9) Insert: Governing law & dispute resolution (end of letter)
+(a) Text to insert:
+"Governing law and dispute resolution: This Agreement shall be governed by and construed in accordance with the laws of India. The parties submit to the exclusive jurisdiction of the courts of Bengaluru, Karnataka, for the resolution of any disputes arising out of or in connection with this Agreement."
+
+(Alternative if arbitration preferred)
+"(Alternative) The parties agree to resolve disputes by arbitration seated in Bengaluru, India, under the Arbitration and Conciliation Act, 1996, whose award shall be final and binding; provided, however, that statutory remedies under labour and employment laws shall remain available."
+
+(b) Reason/legal basis:
+- Parties can choose governing law and forum. For a Bengaluru-based intern, Indien law and Bengaluru courts are appropriate and generally enforceable.
+
+(c) Priority / mandatory:
+- Priority: Medium. Status: Recommended.
+
+10) Insert / Clarify: Working hours & leave entitlement (near Work Arrangement)
+(a) Text to insert:
+"Working hours and leave: This is a training internship. Expected working hours are [e.g., up to 20 hours per week / specify hours]. The Intern is not entitled to paid leave unless expressly stated. Any statutory holidays or adjustments will be communicated."
+
+(b) Reason/legal basis:
+- Including hours supports the ‘training’ characterization and reduces misclassification risk.
+
+(c) Priority / mandatory:
+- Priority: Medium. Status: Recommended.
+
+11) Insert: Data protection / privacy notice (on processing onboarding and operational personal data)
+(a) Text to insert:
+"Data processing and privacy: The Company will process the Intern's personal data for onboarding, payroll (if applicable), background screening, and compliance purposes. The Intern's data will be processed in accordance with applicable data protection laws. For questions about data processing, contact: [Data Protection Officer / HR contact]."
+
+(b) Reason/legal basis:
+- Data protection principles require transparency and a point of contact for data subjects.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Mandatory/Recommended.
+
+12) Insert: Recovery clause for statutory contributions (to be used if authorities demand retrospective payment)
+(a) Text to insert (can be included in EPF/ESI clause):
+"If any statutory authority requires the Company to make retrospective contributions or payments in respect of the Intern (including under EPF/ESI or similar statutes), the Company reserves the right to recover such amounts from the Intern to the extent permitted by law and consistent with applicable statutory restrictions."
+
+(b) Reason/legal basis:
+- Authorities can require retrospective compliance; company should reserve right to recover where law permits.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Recommended.
+
+13) Minor drafting: Final payment and last day (Termination)
+(a) Text to insert:
+"On last working day, the Intern must return all Company property and complete exit formalities; final dues (if any) will be paid within 30 days."
+
+(b) Reason/legal basis:
+- Administrative clarity to avoid disputes.
+
+(c) Priority / mandatory:
+- Priority: Medium. Status: Recommended.
+
+14) Misc: Acceptance / signature — include statement that acceptance indicates consent to background check and data processing
+(a) Text to insert near acceptance:
+"By signing below, the Intern acknowledges and agrees to the background verification and data processing terms set out above."
+
+(b) Reason/legal basis:
+- Clear linkage between acceptance and consent.
+
+(c) Priority / mandatory:
+- Priority: High. Status: Recommended.
+
+Notes on legal basis / citations (short)
+- EPF/ESI: Employees' Provident Funds & Miscellaneous Provisions Act, 1952; Employees' State Insurance Act, 1948. Authorities assess substantive relationship vs label.
+- Tax/TDS: Income-tax Act, 1961; Sections around TDS (e.g., Section 192 and 206AA/206AB on PAN).
+- Professional tax: Karnataka Tax on Professions, Trades, Callings and Employments Act, 1976 (State law).
+- POSH: Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013.
+- Data protection: Information Technology Act/Rules (SPDI), and recent DPDP-related developments (consent, purpose limitation, minimal processing). Criminal records/biometrics treated as sensitive; require explicit consent and vendor safeguards.
+- Contract enforceability: Indian contract law — parties' intentions and substance; courts look at control, integration, regularity, payment mode, and necessity.
+
+Priority checklist (recap)
+- Implement immediately (before issuing offer): Items 1, 2, 6, 7, 11, 14 (Tax/PAN, EPF/ESI reservation, Background consent + retention, POSH, Data privacy contact, link acceptance to consent).
+- Implement next (before or shortly after issuance): Items 3, 4, 5, 8, 9, 10, 12, 13 (Confidentiality, IP narrowing, termination clarity, professional tax, jurisdiction, working hours, recovery clause, final payment).
+
+If you want me to produce:
+- A 'clean' final offer letter with all recommended text merged in (no annotations).
+- An alternative with arbitration instead of choice of courts.
+- A version that proactively enrolls interns in EPF/ESI.
+
+Tell me which and I will create the file.
+
+[End of change-log and summary]

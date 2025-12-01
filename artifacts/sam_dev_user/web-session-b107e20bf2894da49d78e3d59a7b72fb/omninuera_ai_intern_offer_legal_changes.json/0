@@ -1,0 +1,83 @@
+[
+  {
+    "change_id": "C001",
+    "location": "Section 2. Stipend (lines 20-23)",
+    "required_or_recommended": "must change",
+    "reason": "Absolute statement that stipend 'is not a salary' may increase misclassification risk and conflict with statutory obligations if law treats the stipend as wages.",
+    "suggested_text": "The stipend is intended to cover expenses associated with your training and participation in the internship. This engagement is a fixed-term training/internship and is not intended to create a contract of permanent employment. Omninuera will, however, comply with any statutory obligations (including minimum wages, social security contributions, taxes and other employee entitlements) if applicable under law.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "high"
+  },
+  {
+    "change_id": "C002",
+    "location": "Section 4. Employment Relationship (lines 32-36)",
+    "required_or_recommended": "must change",
+    "reason": "Blanket exclusion of employee benefits could be non-compliant if statutory tests apply. Need conditional compliance language.",
+    "suggested_text": "This letter documents a fixed-term stipend internship for training and learning purposes and is not intended to create permanent salaried employment. Notwithstanding the foregoing, nothing in this letter limits Omninuera's obligation to comply with any statutory entitlements under applicable law (including minimum wage laws, social security (EPF/ESI) obligations, professional tax or other statutory payments) if such laws apply to the engagement as a matter of law.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "high"
+  },
+  {
+    "change_id": "C003",
+    "location": "Section 3. Work Arrangement (lines 24-28)",
+    "required_or_recommended": "recommended",
+    "reason": "Adding a learning/objectives and supervision description reduces misclassification risk.",
+    "suggested_text": "Training and supervision: This internship is training-focused. You will be assigned learning objectives and supervised by [Reporting Manager]. You will not be required to perform work equivalent to an employee's full duties independently or to supervise other staff. You will not have authority to enter into contracts on behalf of Omninuera nor to make decisions that bind the company.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "medium"
+  },
+  {
+    "change_id": "C004",
+    "location": "Section 6. Confidentiality (lines 36-39)",
+    "required_or_recommended": "recommended",
+    "reason": "Confidentiality clause needs carve-outs and duration to be reasonable and enforceable.",
+    "suggested_text": "Exceptions: Confidential information does not include information that is or becomes publicly available other than through breach by you, was already known to you prior to disclosure (and you can substantiate this), or is independently developed by you without access to Omninuera's confidential information. Duration: Confidentiality obligations shall continue for two (2) years after termination with respect to general confidential information and indefinitely for trade secrets to the extent permitted by law.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "medium"
+  },
+  {
+    "change_id": "C005",
+    "location": "Section 7. Intellectual Property and Assignment (lines 40-43)",
+    "required_or_recommended": "recommended",
+    "reason": "Assignment clause is overly broad and may attempt to assign Background IP or moral rights without appropriate carve-outs / language.",
+    "suggested_text": "Define 'Work Product' and 'Background IP'. Work Product created within scope or using Company resources shall be assigned to Omninuera; Background IP remains with the intern and must be disclosed. Include moral rights waiver 'to the maximum extent permitted by applicable law' and a cooperation obligation.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "medium"
+  },
+  {
+    "change_id": "C006",
+    "location": "Section 8. Background Checks (lines 45-46)",
+    "required_or_recommended": "must change",
+    "reason": "No DPDP-compliant consent or notice; processing of sensitive data requires explicit lawful basis and notice.",
+    "suggested_text": "Background check consent and data-processing notice: You expressly consent to Omninuera (and its third-party background-check provider(s)) collecting and processing personal data about you for the purpose of verifying your identity, education and work history and conducting any criminal background checks permitted by law. The categories of data to be processed may include name, date of birth, identification numbers, educational records, employment history and criminal records (where permitted). The purpose of processing is verification and recruitment decisions. Omninuera will retain the results for a limited period as required for this purpose and in accordance with applicable law. You have the right to withdraw consent and to access, correct or complain about your personal data; contact [privacy@example.com] for requests. Refusal to consent may result in withdrawal of this offer.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "high"
+  },
+  {
+    "change_id": "C007",
+    "location": "Section 9. Termination (lines 48-51)",
+    "required_or_recommended": "must change",
+    "reason": "Unclear final payment obligations; potential conflict if stipend treated as wages.",
+    "suggested_text": "Final payments: On termination, Omninuera will pay any stipend amounts owed for services actually rendered up to the effective date of termination, subject to lawful deductions, within [X] days. If Omninuera is required by law to withhold or recover amounts, it may do so in accordance with applicable law.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "high"
+  },
+  {
+    "change_id": "C008",
+    "location": "Section 10. Taxes (lines 53-55)",
+    "required_or_recommended": "must change",
+    "reason": "Ambiguous treatment of withholding; employer should reserve right to withhold where law requires and describe certificate issuance.",
+    "suggested_text": "Tax withholding: The stipend may be taxable in your hands. Where required by applicable law, Omninuera will deduct tax at source from the stipend and provide you with the relevant tax deduction certificate. You are responsible for your personal tax filings.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "high"
+  },
+  {
+    "change_id": "C009",
+    "location": "Section 12. Governing Law and Jurisdiction (lines 59-61)",
+    "required_or_recommended": "recommended",
+    "reason": "Jurisdiction clause OK for candidate located in Bengaluru but may need modification if candidate relocates.",
+    "suggested_text": "Retain clause but consider adding 'provided that Omninuera reserves the right to bring proceedings in the jurisdiction of the candidate’s residence where permitted by law' if remote candidate may relocate during the internship.",
+    "filename": "omninuera_ai_intern_offer_legal_review_annotated.md",
+    "priority": "low"
+  }
+]

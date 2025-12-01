@@ -1,0 +1,12 @@
+{
+  "filename": "onboarding_checklist_ai_intern_omninuera.md",
+  "mime_type": "text/markdown",
+  "size_bytes": 1234,
+  "timestamp_utc": 1764591541.0,
+  "description": "Concise onboarding checklist for AI Intern at Omninuera.",
+  "schema": {
+    "type": "text/markdown",
+    "inferred": false,
+    "error": null
+  }
+}

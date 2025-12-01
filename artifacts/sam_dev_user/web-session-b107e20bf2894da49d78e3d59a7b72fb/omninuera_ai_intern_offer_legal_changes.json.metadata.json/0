@@ -1,0 +1,23 @@
+{
+  "filename": "omninuera_ai_intern_offer_legal_changes.json",
+  "mime_type": "application/json",
+  "size_bytes": 7326,
+  "timestamp_utc": 1764579957.0,
+  "description": "Machine-readable summary of required and recommended changes for omninuera_ai_intern_offer.md.",
+  "schema": {
+    "type": "application/json",
+    "inferred": true,
+    "error": null,
+    "structure": [
+      {
+        "change_id": "str",
+        "location": "str",
+        "required_or_recommended": "str",
+        "reason": "str",
+        "suggested_text": "str",
+        "filename": "str",
+        "priority": "str"
+      }
+    ]
+  }
+}

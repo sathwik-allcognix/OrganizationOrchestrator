@@ -1,0 +1,12 @@
+{
+  "filename": "legal_sensitive_clauses_for_review.pdf",
+  "mime_type": "text/plain",
+  "size_bytes": 2414,
+  "timestamp_utc": 1764594965.0,
+  "source_directive": "\u00abartifact_content:legal_sensitive_clauses_for_review.md >>> format:text\u00bb",
+  "schema": {
+    "type": "text/plain",
+    "inferred": false,
+    "error": null
+  }
+}
